@@ -1,1 +1,33 @@
-"index styling" 
+container {
+  width: 50%;
+}
+h1, h3, h4, h5 {
+  text-align: center;
+  margin: 20px;
+}
+
+h3,  h4 {
+    padding-bottom: 60px !important;
+}
+h5{
+ flex:
+ }
+
+.row {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.glacierPhoto, .glacier, .buddha, .buddhaPhoto, .flathead, .flatheadPhoto, .yellowstone, .yellowstonePhoto {
+  flex-basis: 50%;
+  background-color: black;
+  color: darkgray;
+}
+
+
+.attractionPhotos {
+height: 100%;
+width: 100%;
+}
