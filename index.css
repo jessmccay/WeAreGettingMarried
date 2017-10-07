@@ -1,3 +1,26 @@
+body {
+  background-color: rgb(66,4,32);
+
+}
+#daisy {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+
+}
+#Sunflower {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  height: 300px;
+}
+.gettingMarried {
+  font-family: 'Parisienne', cursive;
+  color: rgb(255,227,76);
+
+}
 container {
   width: 50%;
 }
@@ -30,9 +53,4 @@ h5{
 .attractionPhotos {
 height: 100%;
 width: 100%;
-}
-
-#jenereus {
-  margin-left: 40%
-
 }
