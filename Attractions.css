@@ -10,18 +10,7 @@ body {
     z-index: 0;
 
 }
-#Sunflower {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  height: 300px;
-}
-.gettingMarried {
-  font-family: 'Parisienne', cursive;
-  color: rgb(255,227,76);
 
-}
 container {
   width: 50%;
 }

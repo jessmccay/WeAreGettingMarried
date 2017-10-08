@@ -1,41 +1,24 @@
-body {
-  background-color: rgb(66,4,32);
-
+.flexbox-container {
+  display: flex;
 }
-#daisy {
 
+.call-out {
+flex-wrap: wrap;
 }
-/*@media screen and (max-width: ) {
-}*/
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #Sunflower {
-      height: 200pt;
-    }
+ .sunflower {
+background-image: url("photos/Sunflower.jpg");
+background-repeat: no-repeat;
+background-size: contain;
+margin: -6% 50% 10% 50%;
+height: 770px;
+width: 770px;
+display: flex;
 }
- #Sunflower {
-   z-index: -1;
-   position: absolute;
-   left: 0;
-   text-align: center;
- }
+
 .gettingMarried {
-  z-index: 0;
-  position: absolute;
   font-family: 'Parisienne', cursive;
   color: rgb(255,227,76);
-  font-size: 12pt;
-  left: 150pt;
-  top: 270pt;
-
-
-
-}
-.flexbox {
-  display: flex;
-  flex-direction: row;
-
-}
+  margin: auto;
+  text-align: center;
+  }
