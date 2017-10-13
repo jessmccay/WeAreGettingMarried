@@ -74,9 +74,9 @@ font-weight: bold;
      -ms-animation-timing-function: linear;
       -o-animation-timing-function: linear;
          animation-timing-function: linear;
-          background-image: url("photos/sunflower.jpg");
+          /*background-image: url("photos/sunflower.jpg");
           background-repeat: no-repeat;
-          background-size: contain;
+          background-size: contain;*/
 }
 
 @-webkit-keyframes rotate {
