@@ -6,15 +6,24 @@
 flex-wrap: wrap;
 }
 
-img {
-  height: "400px";
+@media screen and (min-width: 580px) {
+  img {
+    height: "400px" !important;
+  }
 }
 
-@media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
+@media screen and (max-width: 380px) {
+  body {
+    background-color: rgb(255, 100, 210);
+  }
+  img {
+    max-height: "10px";
+  }
 }
+
+/*@media screen and (min-width: 480px) {*/
+
+/*}*/
  /*.sunflower {
 background-image: url("photos/Sunflower.jpg");
 background-repeat: no-repeat;
