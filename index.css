@@ -25,7 +25,7 @@ flex-wrap: wrap;
 
 /*}*/
  /*.sunflower {
-background-image: url("photos/Sunflower.jpg");
+background-image: url("images/Sunflower.jpg");
 background-repeat: no-repeat;
 background-size: contain;
 margin: -6% 50% 10% 50%;
@@ -64,9 +64,9 @@ font-weight: bold;
 }
 
 
-#container { margin: 5%; }
+/*#container { margin: 5%; }*/
 
-#circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden;}
+/*#circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden;}
 
 #circle text { font-family: 'Helvetica Neue', Arial; font-size: 16px; font-weight: bold;}
 
@@ -92,28 +92,7 @@ font-weight: bold;
      -ms-animation-timing-function: linear;
       -o-animation-timing-function: linear;
          animation-timing-function: linear;
-          /*background-image: url("photos/sunflower.jpg");
+          /*background-image: url("images/sunflower.jpg");
           background-repeat: no-repeat;
           background-size: contain;*/
-}
-
-@-webkit-keyframes rotate {
-   from { -webkit-transform: rotate(360deg); }
-   to { -webkit-transform: rotate(0); }
-}
-@-moz-keyframes rotate {
-   from { -moz-transform: rotate(360deg); }
-   to { -moz-transform: rotate(0); }
-}
-@-ms-keyframes rotate {
-   from { -ms-transform: rotate(360deg); }
-   to { -ms-transform: rotate(0); }
-}
-@-o-keyframes rotate {
-   from { -o-transform: rotate(360deg); }
-   to { -o-transform: rotate(0); }
-}
-@keyframes rotate {
-   from { transform: rotate(360deg); }
-   to { transform: rotate(0); }
-}
+/*}*/
