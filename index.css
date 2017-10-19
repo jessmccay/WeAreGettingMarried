@@ -1,39 +1,68 @@
-.flexbox-container {
+
+/*.flexbox-container {
   display: flex;
 }
 
 .call-out {
 flex-wrap: wrap;
-}
-#happy {
-  border-style: groove;
-  border-radius: 15px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-width: medium;
-  box-shadow: 12px 12px 12px 11px rgba(0, 0, 0, 0.2);
+}*/
+
+#gettingMarried {
+
+  font-family: Gill Sans, Verdana;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
-@media screen and (min-width: 581px max-with: 768px) {
-  #happy {
-    width: 900px;
+#weddingDate {
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  margin: 0;
+  padding: 0px 0px 6px 0px;
+  font-size: 51px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  font-weight: bold;
+}
+#fiveOClock {
+  /*-webkit-transform: translateX(-39px) translateY(59px) rotate(-10deg);*/
+  word-wrap: normal;
 
-  }
 }
 
 @media screen and (max-width: 580px) {
-  body {
-    background-color: rgba(135, 20, 79, 0.9);
 
+  .jumbotron {
+    background-image: url('images/jumbo.PNG');
+    background-size: cover;
+    padding: 0px 0px 150px 0px;
   }
+  .getting {
+    margin: 0pt 0pt 0pt 30pt;
+    color: white;
+    }
+    body {
+      background-color: rgba(135, 20, 79, 0.9);
+    }
+}
+
+@media screen and (min-width: 581px) {
+
+  .jumbotron {
+    background-image: url('images/jumbo.PNG');
+    background-size: cover;
+    padding: 0px 0px 450px 0px;
+  }
+  .getting {
+    color: black;
+    text-align: center;
+    }
 
 }
-@media screen and (max-width: 580px) {
-  #happy {
-    max-width: 100%;
-    max-height: auto;
-  }
-}
+
+
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
   #happy {
@@ -41,85 +70,3 @@ flex-wrap: wrap;
     margin-left: 30%;
   }
 }
-
-@media only screen  and (min-width : 1224px) {
-  #happy {
-    max-width: 900px;
-    margin: 20%;
-  }
-}
-/*@media screen and (min-width: 480px) {*/
-
-/*}*/
- /*.sunflower {
-background-image: url("images/Sunflower.jpg");
-background-repeat: no-repeat;
-background-size: contain;
-margin: -6% 50% 10% 50%;
-height: 770px;
-width: 770px;
-
-}*/
-.getting {
-  margin: 0pt 0pt 0pt 30pt;
-  color: rgb(220,220,220);
-}
-
-#gettingMarried {
-
-font-family: Gill Sans, Verdana;
-font-size: 14px;
-line-height: 14px;
-text-transform: uppercase;
-letter-spacing: 2px;
-font-weight: bold;
-}
-
-#weddingDate {
-font-family: times, Times New Roman, times-roman, georgia, serif;
-margin: 0;
-padding: 0px 0px 6px 0px;
-font-size: 51px;
-line-height: 44px;
-letter-spacing: -2px;
-font-weight: bold;
-}
-#fiveOClock {
-   /*-webkit-transform: translateX(-39px) translateY(59px) rotate(-10deg);*/
-   word-wrap: normal;
-
-}
-
-
-/*#container { margin: 5%; }
-
-#circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden;}
-
-#circle text { font-family: 'Helvetica Neue', Arial; font-size: 16px; font-weight: bold;}
-
-#circle svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%;
-
- -webkit-animation-name: rotate;
-    -moz-animation-name: rotate;
-     -ms-animation-name: rotate;
-      -o-animation-name: rotate;
-         animation-name: rotate;
- -webkit-animation-duration: 200s;
-    -moz-animation-duration: 200s;
-     -ms-animation-duration: 200s;
-      -o-animation-duration: 200s;
-         animation-duration: 200s;
- -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-     -ms-animation-iteration-count: infinite;
-      -o-animation-iteration-count: infinite;
-         animation-iteration-count: infinite;
- -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-     -ms-animation-timing-function: linear;
-      -o-animation-timing-function: linear;
-         animation-timing-function: linear;
-          background-image: url("images/sunflower.jpg");
-          background-repeat: no-repeat;
-          background-size: contain;
-}*/
