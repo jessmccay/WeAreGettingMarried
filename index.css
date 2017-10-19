@@ -32,6 +32,22 @@ flex-wrap: wrap;
 
 }
 
+.boxed {
+  background-image: url('images/roses.JPG');
+  color: white;
+  height: 200px;
+  border-width: medium;
+  border-style: solid;
+  border-color: rgba(135, 20, 79, 0.9);
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+/*font-family: 'Great Vibes', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Nothing You Could Do', cursive;*/
+}
+
 @media screen and (max-width: 580px) {
 
   .jumbotron {
@@ -41,11 +57,9 @@ flex-wrap: wrap;
   }
   .getting {
     margin: 0pt 0pt 0pt 30pt;
-    color: white;
+    color: rgb(5, 5, 5);
     }
-    body {
-      background-color: rgba(135, 20, 79, 0.9);
-    }
+
 }
 
 @media screen and (min-width: 581px) {
