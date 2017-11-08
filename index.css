@@ -12,13 +12,20 @@ flex-wrap: wrap;
     top: 0;
 
 }*/
+
+body {
+  padding-top: 54px;
+}
+
+
+
 .navbar-fixed-bottom, .navbar-fixed-top {
     position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
-    background: url(https://s3.amazonaws.com/creativetim_bucket/products/46/mk_pro_cover.jpg?1466002372)no-repeat;
-background-size: cover;
+    background-color: rgb(88, 24, 69);
+    color: white;
   }
 .leftBoxes {
   border-left: solid;
@@ -76,12 +83,21 @@ font-family: 'Nothing You Could Do', cursive;*/
     background-size: cover;
     padding: 0px 0px 150px 0px;
   }
+  .mx-auto {
+    height: 200px;
+    width: 250px;
+  }
   .getting {
     margin: 0pt 0pt 0pt 30pt;
     color: rgb(5, 5, 5);
   }
 
-
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+  
   .boxForDescriptions {
     background-color: RGB(240, 128, 128)
     background-size: cover;
@@ -131,10 +147,17 @@ font-family: 'Nothing You Could Do', cursive;*/
     background-size: cover;
     padding: 0px 0px 450px 0px;
   }
+
   .getting {
     color: black;
     text-align: center;
   }
+
+  .mx-auto {
+    height: 200px;
+     width: 350px;
+  }
+
   #goingToMontanaHeader {
     font-family: times, Times New Roman, times-roman, georgia, serif;
     margin: 0;
