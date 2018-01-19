@@ -4,108 +4,97 @@
     <meta charset="utf-8">
     <title>McCay Wedding</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
     <script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Alegreya|Cinzel|Sansita" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
 
-  <!-- <link href="https://fonts.googleapis.com/css?family=Alegreya|Cinzel|Sansita" rel="stylesheet"> -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
 
-  <!-- Optional theme -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Bad+Script|Great+Vibes|Indie+Flower|Nothing+You+Could+Do" rel="stylesheet">
-<link rel="stylesheet" href="index.css">
-<script src="index.js"></script>
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
 
-  </head>
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      }
+  </style>
+</head>
   <body>
-    <!-- navigation -->
-    <!-- <div class="container"> -->
-      <!-- <nav class="navbar navbar-inverse" role="navigation">
-           <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                   <span class="sr-only">Toggle navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="index.html">McCay Wedding</a>
-             </div>
-
-             <div class="collapse navbar-collapse" id="navbar-collapse-1">
-               <ul class="nav navbar-nav">
-                 <li><a href="location.html">Location</a></li>
-                 <li><a href="RSVP.html">RSVP</a></li>
-                 <li><a href="Attractions.html">MT Attractions</a></li>
-                 <li><a href="accomodation.html">Accomodation</a></li>
-                 </ul>
-               </div>
-          </nav> -->
-
-          <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">McCay Wedding</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Things to do</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav>
-<!--
-          <nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-color-on-scroll" id="sectionsNav">
-                  <div class="container">
-
-            <div class="navbar-header">
-
-              <button type="button" class="navbar-toggle" data-toggle="collapse">
-              <ul>
-                <li id="inputField">McCay Wedding</li>
-                <li>Helllo</li>
-
-              </ul>
-
-            </div>
-          </div> -->
-        <!-- </nav> -->
-           <!-- <ul>
-              <li a href="#home">McCay Wedding</li>
-              <li a href="#attractions">MT Activities</li>
-              <li a href="accomodation.html">Accomodation</li>
-            </ul>
-          </nav> -->
-        <!-- </div> -->
-         <!--end nav container-->
-
-        <div class="container">
-          <div class="jumbotron">
-
-          </div>
-
+    <div class="container">
+      <div class="jumbotron">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="http://McCayBrownWedding.rsvpify.com">RSVP</a>
+          <a href="#goingToMontanaHeader">Sites to see</a>
+          <a href="#">Registry</a>
+          <a href="#">Contact</a>
         </div>
 
-        <div class="flexbox-container">
-          <div class="call-out">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
 
-            <div class="getting">
-              <h1 id="gettingMarried">We're getting married!</h1>
-              <br>
-              <h2 id="weddingDate"> 30th June, 2018</h2>
-              <h2 id="weddingTime">6:00pm</h2>
-            </div>
+        <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
 
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+        </div>
+
+      </div>
+
+      <div class="flexbox-container">
+        <div class="call-out">
+
+          <div class="getting">
+            <h1 id="gettingMarried">We're getting married!</h1>
+            <br>
+            <h2 id="weddingDate"> 30th June, 2018</h2>
+            <h2 id="weddingTime">6:00pm</h2>
+          </div>
 
           </div>
         </div> <!--close flex container-->
@@ -115,29 +104,28 @@
               <div class="boxed">
                 <h4>Jessica McCay and Nereus Brown's <br>
                   wedding and reception will be at the McCay Residence in Arlee, MT</h4>
-
-                <h1>Dress is formal, although we encourage you to bring along a pair of comfortable shoes. We plan on dancing the night away and hope that you will join us! <br>Drinking and driving is not something we want our guests to do so we will be organizing a shuttle from and to Missoula for our wedding celebration. A few of you have asked about camping and we are encouraging our guest to set up camp on our property in Arlee!</h1>
+                <h1>We hope that you will come and share this special day with us. We want you to be a part of this wonderful day! We plan on dancing the night away and hope that you will join us and don't forget to bring along your comfortable shoes! <br>Drinking and driving is not something we want our guests to do so we will be organizing a shuttle from and to Missoula for our wedding celebration. A few of you have asked about camping and we are encouraging our guest to set up camp on our property in Arlee!</h1>
               </div>
-
-              </div>
+            </div>
               <!-- </div>
 
             </div> -->
           </div>
         </div>
 
+<br>
+<br>
+<br>
 
-
-
+<br>
+<br>
+<br>
         <!-- Page Content -->
         <div class="container">
-
-
-          <!-- Team Members Row -->
           <div class="row">
             <div class="col-lg-12">
-              <h2 class="my-4">Our Team</h2>
               <div class="mt">
+                <h2>:)</h2>
                 <h1 id="goingToMontanaHeader">So you're going to <span class="montana">Montana?</span></h1>
                 <h1 id="lotsToSee">There are a lot of great things to do and see!</h1>
 
@@ -173,27 +161,21 @@
               Learn more about Flathead Lake <a href="http://www.visitmt.com/listings/general/lake/flathead-lake.html">Here</a></p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center mb-4">
-              <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-              <h3>John Smith
-                <small>Job Title</small>
+              <img class="rounded-circle img-fluid d-block mx-auto" src="http://chrislatray.files.wordpress.com/2010/04/m2.jpg" alt="The 'M'">
+              <h3>The 'M'
               </h3>
-              <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+              <p>Hike the Missoula 'M'. See the beautiful view of Missoula from above while getting to breath that fresh Montana air.</p>
             </div>
             <div class="col-lg-4 col-sm-6 text-center mb-4">
-              <img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
-              <h3>John Smith
-                <small>Job Title</small>
+              <img class="rounded-circle img-fluid d-block mx-auto" src="http://vacationidea.com/pix/img25Hy8R/ideas/t-t6_missoula_farmer's_market_6281_mobi.jpg" alt="farmer's market">
+              <h3>Missoula Farmers Market
+                <small>Missoula, MT</small>
               </h3>
-              <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+              <p>On Saturday's downtown missoula hosts the missoula farmer's market where you can find delicious breakfast food, fresh produce and some very neat hand made goods.</p>
             </div>
           </div>
 
-        </div>
-          <!--start fun places to go -->
-
-
-
-
+        </div>           <!--end fun places to go -->
 
   </body>
 </html>
