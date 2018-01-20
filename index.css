@@ -4,7 +4,7 @@ body {
   color: white;
 }
 #lotsToSee {
-  text-align: center;
+  text-align: right;
 }
 
 
@@ -48,9 +48,10 @@ body {
 @media screen and (max-width: 580px) {
   .jumbotron {
     background-image: url('images/jumbo.PNG');
-    background-size: contain;
+    background-size: auto;
     padding: 0px 0px 150px 0px;
-    margin-top: 180px;
+    margin-top: 50px;
+    border-radius: 40px !important;
   }
   .mx-auto {
     height: 200px;
@@ -60,7 +61,14 @@ body {
     margin: 0pt 0pt 0pt 30pt;
     color: rgb(5, 5, 5);
   }
-
+  a {
+    color: rgb(255, 200, 100);
+  }
+  #rsvp  {
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    font-size: 100px;
+  }
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -68,7 +76,7 @@ body {
   }
 
   .boxForDescriptions {
-    background-size: cover;
+    background-size: cover
   }
 
 
@@ -113,6 +121,7 @@ body {
     background-image: url('images/jumbo.PNG');
     background-size: cover;
     padding: 0px 0px 450px 0px;
+    border-radius: 80px !important;
   }
 
   .getting {
@@ -125,6 +134,15 @@ body {
      width: 350px;
   }
 
+  a {
+    color: rgb(255, 200, 100);
+  }
+  #rsvp  {
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    font-size: 200px;
+  }
+
   #goingToMontanaHeader {
     font-family: times, Times New Roman, times-roman, georgia, serif;
     margin: 0;
@@ -133,13 +151,14 @@ body {
     line-height: 64px;
     letter-spacing: -2px;
     font-weight: bold;
-    text-align: left;
-    /*padding-top: 155px;
-    padding-bottom: 55px;*/
+    text-align: center;
   }
+
 
   .montana {
     font-size: 70px;
+    text-align: right;
+
   }
 
   .attractionHeader,  .attractionDescription {
@@ -164,6 +183,7 @@ body {
   }
 }
 
+
 .attractionHeader, .attractionDescription, h5 {
   text-align: center;
 }
@@ -174,17 +194,19 @@ body {
   align-content: space-around;
 }
 
-.glacierPhoto, .glacier, .buddha, .buddhaPhoto, .flathead, .flatheadPhoto, .yellowstone, .yellowstonePhoto {
-  flex-basis: 50%;
-  color: black;
-}
-
-.attractionPhotos {
-height: 100%;
-width: 100%;
-}
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+  .jumbotron {
+    border-radius: 100px !important;
+  }
+  a {
+    color: rgb(255, 200, 100);
+  }
+  #rsvp  {
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    font-size: 200px;
+  }
   #happy {
     max-width: 100%;
     margin-left: 30%;
