@@ -163,9 +163,13 @@ a {
     letter-spacing: -2px;
     font-weight: bold;
   }
+
+  .happyCouple {
+    font-size: 45px;
+  }
   .boxed {
     text-align: left;
-    font-size: 100px;
+    font-size: 30px;
     margin-right: 100px;
     font-family: 'Rouge Script', cursive;
 
