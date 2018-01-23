@@ -1,12 +1,12 @@
 body {
   padding-top: 54px;
-  background-color: rgb(172,102,131);
+  background-color: rgb(140, 62, 100);
   color: white;
 }
-#lotsToSee {
-  text-align: right;
-}
 
+a {
+  color: rgb(255, 200, 100);
+}
 
 .navbar-fixed-bottom, .navbar-fixed-top {
     position: fixed;
@@ -27,7 +27,8 @@ body {
   font-weight: bold;
 }
 
-#weddingDate {
+
+/*#weddingDate {
   font-family: times, Times New Roman, times-roman, georgia, serif;
   margin: 0;
   padding: 0px 0px 6px 0px;
@@ -35,152 +36,13 @@ body {
   line-height: 44px;
   letter-spacing: -2px;
   font-weight: bold;
-}
-#fiveOClock {
-  word-wrap: normal;
-}
+}*/
+.saveDate {
 
-.boxed {
-  margin: 5px;
-  text-align: center;
 }
 
-@media screen and (max-width: 580px) {
-  .jumbotron {
-    background-image: url('images/jumbo.PNG');
-    background-size: auto;
-    padding: 0px 0px 150px 0px;
-    margin-top: 50px;
-    border-radius: 40px !important;
-  }
-  .mx-auto {
-    height: 200px;
-    width: 250px;
-  }
-  .getting {
-    margin: 0pt 0pt 0pt 30pt;
-    color: rgb(5, 5, 5);
-  }
-  a {
-    color: rgb(255, 200, 100);
-  }
-  #rsvp  {
-    font-family: 'Rouge Script', cursive;
-    text-align: center;
-    font-size: 100px;
-  }
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-  }
-
-  .boxForDescriptions {
-    background-size: cover
-  }
-
-
-  #goingToMontanaHeader {
-    font-family: times, Times New Roman, times-roman, georgia, serif;
-    margin: 0;
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: bold;
-    text-align: left;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .montana {
-    font-size: 40px;
-  }
-
-  .attractionHeader,  .attractionDescription {
-      padding-bottom: 60px !important;
-  }
-  .attractionHeader {
-    font-family: Gill Sans, Verdana;
-    font-size: 17px;
-    line-height: 24px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  .attractionDescription {
-    font-family: times, Times New Roman, times-roman, georgia, serif;
-    margin: 0;
-    padding: 0px 0px 6px 0px;
-    font-size: 12px;
-    line-height: 22px;
-    font-weight: bold;
-  }
-}
-
-@media screen and (min-width: 581px) {
-
-  .jumbotron {
-    background-image: url('images/jumbo.PNG');
-    background-size: cover;
-    padding: 0px 0px 450px 0px;
-    border-radius: 80px !important;
-  }
-
-  .getting {
-    color: WHITE;
-    text-align: center;
-  }
-
-  .mx-auto {
-    height: 200px;
-     width: 350px;
-  }
-
-  a {
-    color: rgb(255, 200, 100);
-  }
-  #rsvp  {
-    font-family: 'Rouge Script', cursive;
-    text-align: center;
-    font-size: 200px;
-  }
-
-  #goingToMontanaHeader {
-    font-family: times, Times New Roman, times-roman, georgia, serif;
-    margin: 0;
-    padding: 0px 0px 6px 0px;
-    font-size: 40px;
-    line-height: 64px;
-    letter-spacing: -2px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-
-  .montana {
-    font-size: 70px;
-    text-align: right;
-
-  }
-
-  .attractionHeader,  .attractionDescription {
-      padding-bottom: 60px !important;
-  }
-  .attractionHeader {
-    font-family: Gill Sans, Verdana;
-    font-size: 14px;
-    line-height: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-  }
-  .attractionDescription {
-    font-family: times, Times New Roman, times-roman, georgia, serif;
-    margin: 0;
-    padding: 0px 0px 6px 0px;
-    font-size: 31px;
-    line-height: 44px;
-    letter-spacing: -2px;
-    font-weight: bold;
-  }
+#lotsToSee {
+  text-align: right;
 }
 
 
@@ -195,20 +57,186 @@ body {
 }
 
 
+/*start of MAX-Width screen 580px---------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 580px) {
+  .jumbotron {
+    background-image: url('images/jumbo.PNG');
+    background-size: cover;
+    padding: 0px 0px 150px 0px;
+    border-radius: 40px !important;
+  }
+  .col-xs-5{
+    width: -webkit-fill-available;
+  }
+  .mx-auto {
+    height: 200px;
+    width: 250px;
+  }
+
+  .getting {
+    margin: 0pt 0pt 0pt 30pt;
+    color: rgb(5, 5, 5);
+  }
+
+  .boxed {
+    font-size: 16px;
+  }
+
+  .savethedatetext {
+    font-size: 14px;
+  }
+  .happyCouple {
+    font-size: 35px;
+      font-family: 'Rouge Script', cursive;
+  }
+
+  .montana {
+    font-size: 30px;
+  }
+
+  #lotsToSee {
+    font-size: 20px;
+  }
+
+  #rsvp  {
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    font-size: 100px;
+  }
+
+  #daisy {
+    width: 100px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  .boxForDescriptions {
+    background-size: cover
+  }
+
+  #goingToMontanaHeader {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}  /* close media screen MAX 580 ------------------------------------------------------------------------------------------------ */
+
+
+/*Start MIN 581------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 581px) {
+  .jumbotron {
+    background-image: url('images/jumbo.PNG');
+    background-size: cover;
+    padding: 0px 0px 450px 0px;
+    border-radius: 80px !important;
+  }
+
+  .getting {
+    margin: 0pt 0pt 0pt 50pt;
+    color: rgb(5, 5, 5);
+  }
+
+  .mx-auto {
+    height: 200px;
+     width: 350px;
+  }
+
+  a {
+    color: rgb(255, 200, 100);
+  }
+
+  #weddingDate {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 51px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;
+  }
+  .boxed {
+    text-align: left;
+    font-size: 100px;
+    margin-right: 100px;
+    font-family: 'Rouge Script', cursive;
+
+  }
+
+  #rsvp  {
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    font-size: 200px;
+    margin-top: 10%;
+  }
+
+  #daisy {
+  width: 270px;
+  }
+
+  #goingToMontanaHeader {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .montana {
+    font-size: 70px;
+    text-align: right;
+  }
+
+  .attractionHeader,  .attractionDescription {
+      padding-bottom: 60px !important;
+  }
+
+  .attractionHeader {
+    font-family: Gill Sans, Verdana;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .attractionDescription {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 31px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;
+  }
+
+} /*close MIN @media 581 ------------------------------------------------------------------------------------------------*/
+
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+
   .jumbotron {
     border-radius: 100px !important;
   }
   a {
     color: rgb(255, 200, 100);
   }
+
   #rsvp  {
     font-family: 'Rouge Script', cursive;
     text-align: center;
     font-size: 200px;
   }
-  #happy {
-    max-width: 100%;
-    margin-left: 30%;
-  }
+
+
 }
