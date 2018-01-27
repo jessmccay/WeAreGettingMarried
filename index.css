@@ -1,5 +1,5 @@
 body {
-  padding-top: 54px;
+  padding-top: 14px;
   background-color: rgb(140, 62, 100);
   color: white;
 }
@@ -7,7 +7,6 @@ body {
 .jumbotron {
   background-image: url('images/jumbo.PNG');
   background-size: cover;
-  border-radius: 80px !important;
 }
 
 happyCouple.{
@@ -21,65 +20,33 @@ a.hover {
   color: red
 }
 
-
-
-/*.navbar-fixed-bottom, .navbar-fixed-top {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    background-color: rgb(88, 24, 69);
-    color: white;
-  }*/
-
-/*#gettingMarried {
-  font-family: Gill Sans, Verdana;
-  font-size: 14px;
-  line-height: 14px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: bold;
-}*/
-
-
-/*#weddingDate {
-  font-family: times, Times New Roman, times-roman, georgia, serif;
-  margin: 0;
-  padding: 0px 0px 6px 0px;
-  font-size: 51px;
-  line-height: 44px;
-  letter-spacing: -2px;
-  font-weight: bold;
-}*/
-
-/*#lotsToSee {
-  text-align: right;
-}*/
-
-
-.attractionHeader, .attractionDescription, h5 {
-  text-align: right;
+.mx-auto {
+  height: 200px;
+   width: 350px;
+   border-radius: 10pt;
 }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-}
-
+/*.getting {
+  margin-top: 50px;
+  margin-left: 20px;
+}*/
 
 /*start of MAX-Width screen 580px---------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 580px) {
+  .jumbotron {
+    padding: 0px 0px 150px 0px;
+    border-radius: 40px !important;
+  }
 
   #menu {
     margin-left: 30px;
     font-size: 25px;
   }
 
-  /*.getting {
-    margin-top: 50px;
-    margin-left: 20px;
-  }*/
+  .getting {
+    margin: 0pt 0pt 0pt 30pt;
+    color: rgb(5, 5, 5);
+  }
+
   #weddingTime {
     font-size: 18px;
   }
@@ -120,6 +87,9 @@ a.hover {
     font-family: 'Rouge Script', cursive;
     font-size: 120px;
     margin-top: 10%;
+    border-style: dotted;
+    border-color: rgb(191, 120, 52);
+    background-color: rgba(191, 120, 52, 0.2)
 
   }
 
@@ -169,17 +139,8 @@ a.hover {
     letter-spacing: -2px;
     font-weight: bold;
   }*/
-  .jumbotron {
-    background-image: url('images/jumbo.PNG');
-    background-size: cover;
-    padding: 0px 0px 150px 0px;
-    border-radius: 40px !important;
-  }
 
-  .getting {
-    margin: 0pt 0pt 0pt 30pt;
-    color: rgb(5, 5, 5);
-  }
+
 
   .boxed {
     font-size: 16px;
@@ -353,37 +314,10 @@ a.hover {
 } /*close MIN @media 581 ------------------------------------------------------------------------------------------------*/
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
-
-  /*.jumbotron {
-    border-radius: 100px !important;
-  }
-  a {
-    color: rgb(191,155,48);
-  }
-
-  #rsvp  {
-    font-family: 'Rouge Script', cursive;
-    text-align: center;
-    font-size: 200px;
-  }
-*/
-  .jumbotron {
-    background-image: url('images/jumbo.PNG');
-    background-size: cover;
-    padding: 0px 0px 450px 0px;
-    border-radius: 80px !important;
-  }
-
-
-
   .mx-auto {
     height: 200px;
     width: 350px;
     border-radius: 10px;
-  }
-
-  a {
-    color: white;
   }
 
   #weddingDate {
@@ -405,7 +339,6 @@ a.hover {
     font-size: 30px;
     margin-right: 100px;
     font-family: 'Rouge Script', cursive;
-
   }
 
   #rsvp  {
@@ -416,7 +349,6 @@ a.hover {
     border-radius: 50px;
     /*background-color: rgba(10,50,80,0.5);*/
     background-image: url("images/jumbo.PNG");
-
   }
 
   #daisy {
@@ -469,24 +401,20 @@ a.hover {
 }
 
 /*begin largest screen here----------------------------------------------------------------------------------------------------*/
-  @media screen and (min-width: 1025px) and (max-width: 2580px) {
+  @media only screen and (min-width: 1025px) and (max-width: 2580px) {
+    /*@media only screen and (min-width : 581px) and (max-width : 767px) {*/
 
-    /*.jumbotron {
-      background-image: url('images/jumbo.PNG');
-      background-size: cover;
-      padding: 0px 0px 450px 0px;
+    .jumbotron {
+      padding: 0px 0px 440px 0px;
       border-radius: 80px !important;
-    }*/
+
+    }
 
     .getting {
       margin: 0pt 0pt 0pt 50pt;
       color: rgb(5, 5, 5);
     }
 
-    .mx-auto {
-      height: 200px;
-       width: 350px;
-    }
 
 
     #weddingDate {
@@ -503,12 +431,22 @@ a.hover {
       font-size: 65px;
       font-family: 'Rouge Script', cursive;
     }
-    .boxed {
+
+    #family {
+      height: 350px;
+      border-radius: 10pt;
+    }
+    /*.boxed {
       text-align: left;
       font-size: 30px;
       margin-right: 100px;
       font-family: 'Rouge Script', cursive;
 
+    }*/
+    #details {
+      font-size: 24pt;
+      padding-top: 30px;
+      margin-top: 20px;
     }
 
     #rsvp  {
@@ -517,9 +455,9 @@ a.hover {
       font-size: 200px;
       margin-top: 10%;
       border-radius: 50px;
-      /*background-color: rgba(10,50,80,0.5);*/
-      background-image: url("images/jumbo.PNG");
-
+      border-style: dotted;
+      border-color: rgb(191, 120, 52);
+      background-color: rgba(191, 120, 52, 0.2)
     }
 
     #daisy {
@@ -548,13 +486,13 @@ a.hover {
     }
 
     .attractionHeader,  .attractionDescription {
-        padding-bottom: 60px !important;
+        padding-bottom: 20px !important;
     }
+
 
     .attractionHeader {
       font-family: Gill Sans, Verdana;
       font-size: 14px;
-      line-height: 14px;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-weight: bold;
@@ -562,12 +500,11 @@ a.hover {
 
     .attractionDescription {
       font-family: times, Times New Roman, times-roman, georgia, serif;
-      margin: 0;
+
       padding: 0px 0px 6px 0px;
-      font-size: 31px;
+      font-size: 18px;
       line-height: 44px;
-      letter-spacing: -2px;
-      font-weight: bold;
+      letter-spacing: -1px;
     }
   }
 }
