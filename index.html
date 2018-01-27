@@ -70,7 +70,7 @@
           <a href="#">Registry</a>
           <a href="#">Contact</a>
         </div>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+        <span id="menu" style="cursor:pointer" onclick="openNav()">&#9776; menu</span>
 
         <script>
           function openNav() {
@@ -88,20 +88,25 @@
         <div class="call-out">
           <div class="getting">
 
-            <div class="row">
-              <div class="col-xs-5">
-                <h1 class="savethedatetext" id="gettingMarried">We're getting married!</h1>
+            <div id="details_section" class="row">
+              <div class="col-xs-6">
+                <span id="jessNereus" class="happyCouple"> Jessica & Nereus</span>
+                <h1 class="savethedatetext" id="gettingMarried">are getting married!</h1>
                 <h2  class="savethedatetext" id="weddingDate"> 30th June, 2018</h2>
                 <h2  class="savethedatetext" id="weddingTime">6:00pm</h2>
               </div>
 
-              <div class="col-xs-7">
-                <div class="boxed">
-                  <p> <span class="happyCouple"> Jessica</span> & <span class="happyCouple"> Nereus's </span>wedding and reception will be at the McCay Residence in Arlee, MT. <br>
-                    There will be an open bar to enjoy, we encourage you to take advantage of our designated shuttle service to get you to and from the wedding. Please email jessmccay@gmail.com for more details.
-                      We love to dance so don't forget to bring along some comfortable shoes if you plan to 'get down'! </p>
-                </div>
+              <div class="col-xs-4">
+                  <img id="family" src="images/family.JPG" alt="family">
+
               </div>
+              <div class="col-xs-2">
+
+              </div>
+              <p id="details">The wedding ceremony and reception will be at the McCay Residence in Arlee, MT. <br>
+                There will be a shuttle service to pick wedding guests up and bring them to the McCay residence and back again after the reception.
+                We hope you will take advantage of this service as there will be an open bar to enjoy! Please email jessmccay@gmail.com for more details.
+                We love to dance so don't forget to bring along some comfortable shoes if you plan to 'get down'! </p>
             </div>
             <br>
           </div>
@@ -113,11 +118,11 @@
 <br>
 <hr>
 <div class="row">
-  <div class="col-xs-8">
-    <h1 id="rsvp"><a href="http://McCayBrownWedding.rsvpify.com">RSVP</a></h1>
-  </div>
   <div class="col-xs-4">
     <img id="daisy" src="images/daisy.png" alt="">
+  </div>
+  <div class="col-xs-8">
+    <h1 id="rsvp"><a href="http://McCayBrownWedding.rsvpify.com">RSVP</a></h1>
   </div>
 </div>
 <hr>

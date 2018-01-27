@@ -4,28 +4,42 @@ body {
   color: white;
 }
 
-a {
-  color: rgb(255, 200, 100);
+.jumbotron {
+  background-image: url('images/jumbo.PNG');
+  background-size: cover;
+  border-radius: 80px !important;
 }
 
-.navbar-fixed-bottom, .navbar-fixed-top {
+happyCouple.{
+font-family: 'Rouge Script', cursive;
+}
+
+a {
+  color: rgb(191, 120, 52);
+}
+a.hover {
+  color: red
+}
+
+
+
+/*.navbar-fixed-bottom, .navbar-fixed-top {
     position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
     background-color: rgb(88, 24, 69);
     color: white;
-  }
+  }*/
 
-#gettingMarried {
-
+/*#gettingMarried {
   font-family: Gill Sans, Verdana;
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
-}
+}*/
 
 
 /*#weddingDate {
@@ -37,17 +51,14 @@ a {
   letter-spacing: -2px;
   font-weight: bold;
 }*/
-.saveDate {
 
-}
-
-#lotsToSee {
+/*#lotsToSee {
   text-align: right;
-}
+}*/
 
 
 .attractionHeader, .attractionDescription, h5 {
-  text-align: center;
+  text-align: right;
 }
 
 .row {
@@ -59,18 +70,110 @@ a {
 
 /*start of MAX-Width screen 580px---------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 580px) {
+
+  #menu {
+    margin-left: 30px;
+    font-size: 25px;
+  }
+
+  /*.getting {
+    margin-top: 50px;
+    margin-left: 20px;
+  }*/
+  #weddingTime {
+    font-size: 18px;
+  }
+  #gettingMarried {
+    font-size: 10pt;
+    letter-spacing: 1pt;
+  }
+
+  #family {
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  #details_section {
+    color: rgb(5, 5, 5);
+  }
+
+  #weddingDate {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    padding: 0px 0px 6px 0px;
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: bold;
+  }
+
+  #jessNereus {
+    margin-top: 50px !important;
+    font-size: 25px;
+    font-family: 'Rouge Script', cursive;
+  }
+
+  #details {
+    margin-top: 30px;
+  }
+
+   #rsvp  {
+    font-family: 'Rouge Script', cursive;
+    font-size: 120px;
+    margin-top: 10%;
+
+  }
+
+  #daisy {
+  width: 140px;
+  }
+
+
+  #goingToMontanaHeader {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #lotsToSee {
+    font-size: 27px;
+  }
+  .montana {
+    font-size: 70px;
+    text-align: right;
+  }
+
+  .attractionHeader,  .attractionDescription {
+      padding-bottom: 60px !important;
+  }
+
+  .attractionHeader {
+    font-family: Gill Sans, Verdana;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  /*.attractionDescription {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 41px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;
+  }*/
   .jumbotron {
     background-image: url('images/jumbo.PNG');
     background-size: cover;
     padding: 0px 0px 150px 0px;
     border-radius: 40px !important;
-  }
-  .col-xs-5{
-    width: -webkit-fill-available;
-  }
-  .mx-auto {
-    height: 200px;
-    width: 250px;
   }
 
   .getting {
@@ -82,9 +185,6 @@ a {
     font-size: 16px;
   }
 
-  .savethedatetext {
-    font-size: 14px;
-  }
   .happyCouple {
     font-size: 35px;
       font-family: 'Rouge Script', cursive;
@@ -100,12 +200,11 @@ a {
 
   #rsvp  {
     font-family: 'Rouge Script', cursive;
-    text-align: center;
-    font-size: 100px;
+    font-size: 80px;
   }
 
   #daisy {
-    width: 100px;
+    width: 80px;
   }
 
   .row {
@@ -128,11 +227,146 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
+  .col-xs-5{
+    width: -webkit-fill-available;
+  }
+
+  .mx-auto {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+  }
 }  /* close media screen MAX 580 ------------------------------------------------------------------------------------------------ */
 
 
 /*Start MIN 581------------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 581px) {
+@media only screen and (min-width : 581px) and (max-width : 767px) {
+  .jumbotron {
+    padding: 0px 0px 195px 0px;
+  }
+
+  #menu {
+    margin-left: 60px;
+    font-size: 25px;
+  }
+
+  .getting {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  #weddingTime {
+    margin-left: 10px;
+  }
+  #gettingMarried {
+    font-size: 19pt;
+    margin-left: 10px;
+  }
+
+  #family {
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  #details_section {
+    color: rgb(5, 5, 5);
+  }
+
+  #weddingDate {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin-left: 10px;
+    padding: 0px 0px 6px 0px;
+    font-size: 30px !important;
+    line-height: 44px;
+    font-weight: bold;
+  }
+
+  #jessNereus {
+    margin-top: 50px !important;
+    font-size: 44px !important;
+    font-family: 'Rouge Script', cursive;
+  }
+
+  #details {
+    margin-top: 50px;
+  }
+
+   #rsvp  {
+    font-family: 'Rouge Script', cursive;
+    font-size: 120px;
+    margin-top: 10%;
+
+  }
+
+  #daisy {
+  width: 140px;
+  }
+
+
+  #goingToMontanaHeader {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #lotsToSee {
+    font-size: 27px;
+  }
+  .montana {
+    font-size: 70px;
+    text-align: right;
+  }
+
+  .attractionHeader,  .attractionDescription {
+      padding-bottom: 60px !important;
+  }
+
+  .attractionHeader {
+    font-family: Gill Sans, Verdana;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+
+  .attractionDescription {
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+    margin: 0;
+    padding: 0px 0px 6px 0px;
+    font-size: 41px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    font-weight: bold;
+  }
+
+  .mx-auto {
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+  }
+} /*close MIN @media 581 ------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+
+  /*.jumbotron {
+    border-radius: 100px !important;
+  }
+  a {
+    color: rgb(191,155,48);
+  }
+
+  #rsvp  {
+    font-family: 'Rouge Script', cursive;
+    text-align: center;
+    font-size: 200px;
+  }
+*/
   .jumbotron {
     background-image: url('images/jumbo.PNG');
     background-size: cover;
@@ -140,18 +374,16 @@ a {
     border-radius: 80px !important;
   }
 
-  .getting {
-    margin: 0pt 0pt 0pt 50pt;
-    color: rgb(5, 5, 5);
-  }
+
 
   .mx-auto {
     height: 200px;
-     width: 350px;
+    width: 350px;
+    border-radius: 10px;
   }
 
   a {
-    color: rgb(255, 200, 100);
+    color: white;
   }
 
   #weddingDate {
@@ -166,6 +398,7 @@ a {
 
   .happyCouple {
     font-size: 45px;
+    font-family: 'Rouge Script', cursive;
   }
   .boxed {
     text-align: left;
@@ -180,10 +413,14 @@ a {
     text-align: center;
     font-size: 200px;
     margin-top: 10%;
+    border-radius: 50px;
+    /*background-color: rgba(10,50,80,0.5);*/
+    background-image: url("images/jumbo.PNG");
+
   }
 
   #daisy {
-  width: 270px;
+  width: 250px;
   }
 
   #goingToMontanaHeader {
@@ -195,6 +432,11 @@ a {
     letter-spacing: -2px;
     font-weight: bold;
     text-align: center;
+  }
+
+  #lotsToSee {
+    margin-left: 130px;
+    margin-bottom: 120px;
   }
 
   .montana {
@@ -224,23 +466,108 @@ a {
     letter-spacing: -2px;
     font-weight: bold;
   }
+}
 
-} /*close MIN @media 581 ------------------------------------------------------------------------------------------------*/
+/*begin largest screen here----------------------------------------------------------------------------------------------------*/
+  @media screen and (min-width: 1025px) and (max-width: 2580px) {
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+    /*.jumbotron {
+      background-image: url('images/jumbo.PNG');
+      background-size: cover;
+      padding: 0px 0px 450px 0px;
+      border-radius: 80px !important;
+    }*/
 
-  .jumbotron {
-    border-radius: 100px !important;
+    .getting {
+      margin: 0pt 0pt 0pt 50pt;
+      color: rgb(5, 5, 5);
+    }
+
+    .mx-auto {
+      height: 200px;
+       width: 350px;
+    }
+
+
+    #weddingDate {
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+      margin: 0;
+      padding: 0px 0px 6px 0px;
+      font-size: 51px;
+      line-height: 44px;
+      letter-spacing: -2px;
+      font-weight: bold;
+    }
+
+    .happyCouple {
+      font-size: 65px;
+      font-family: 'Rouge Script', cursive;
+    }
+    .boxed {
+      text-align: left;
+      font-size: 30px;
+      margin-right: 100px;
+      font-family: 'Rouge Script', cursive;
+
+    }
+
+    #rsvp  {
+      font-family: 'Rouge Script', cursive;
+      text-align: center;
+      font-size: 200px;
+      margin-top: 10%;
+      border-radius: 50px;
+      /*background-color: rgba(10,50,80,0.5);*/
+      background-image: url("images/jumbo.PNG");
+
+    }
+
+    #daisy {
+    width: 250px;
+    }
+
+    #goingToMontanaHeader {
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+      margin: 0;
+      padding: 0px 0px 6px 0px;
+      font-size: 40px;
+      line-height: 64px;
+      letter-spacing: -2px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #lotsToSee {
+      margin-left: 130px;
+      margin-bottom: 120px;
+    }
+
+    .montana {
+      font-size: 70px;
+      text-align: right;
+    }
+
+    .attractionHeader,  .attractionDescription {
+        padding-bottom: 60px !important;
+    }
+
+    .attractionHeader {
+      font-family: Gill Sans, Verdana;
+      font-size: 14px;
+      line-height: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+
+    .attractionDescription {
+      font-family: times, Times New Roman, times-roman, georgia, serif;
+      margin: 0;
+      padding: 0px 0px 6px 0px;
+      font-size: 31px;
+      line-height: 44px;
+      letter-spacing: -2px;
+      font-weight: bold;
+    }
   }
-  a {
-    color: rgb(255, 200, 100);
-  }
-
-  #rsvp  {
-    font-family: 'Rouge Script', cursive;
-    text-align: center;
-    font-size: 200px;
-  }
-
-
 }
