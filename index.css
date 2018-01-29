@@ -13,7 +13,7 @@
 
 body {
     background-color: rgb(140, 62, 100);
-    color: lightgray;
+    color: lightpink;
 }
 
 #gettingMarried {
@@ -110,7 +110,7 @@ font-family: 'Rouge Script', cursive;
 }
 }*/
 
-@media screen and (max-width : 454px) {
+@media screen and (max-width : 430px) {
 
  #family {
    width: 200px;
@@ -133,7 +133,8 @@ font-family: 'Rouge Script', cursive;
  #jessNereus {
    margin-top: 50px !important;
    margin-left: -20px;
-   font-size: 34px !important;
+   font-size: 30px !important;
+   letter-spacing: -2px;
    font-family: 'Rouge Script', cursive;
  }
 
@@ -261,7 +262,7 @@ font-family: 'Rouge Script', cursive;
 }
 
 /*start of MAX-Width screen 580px---------------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 454px) and (max-width: 580px) {
+@media screen and (min-width: 431px) and (max-width: 580px) {
   .jumbotron {
     padding: 0px 0px 150px 0px;
     border-radius: 40px !important;
@@ -277,30 +278,34 @@ font-family: 'Rouge Script', cursive;
     color: rgb(5, 5, 5);
   }
 
-  #weddingLocation {
-    font-size: 18px;
+  #jessNereus {
+    margin-top: 50px !important;
+    margin-left: -20px;
+    font-size: 40px !important;
+    letter-spacing: -3px;
+    font-family: 'Rouge Script', cursive;
   }
   #gettingMarried {
     font-size: 10pt;
-    letter-spacing: 1pt;
+    letter-spacing: 3pt;
+    margin-top: -10px;
+  }
+
+  #weddingDate {
+    padding: 0px 0px 6px 0px;
+    font-size: 17px;
+    margin-top: -6px;
+  }
+
+  #weddingLocation {
+    font-size: 18px;
+    margin-top: -10px;
   }
 
   #family {
     height: 100px;
     margin-top: 30px;
     border-radius: 10px;
-  }
-
-  #weddingDate {
-    padding: 0px 0px 6px 0px;
-    font-size: 20px;
-    line-height: 10px;
-  }
-
-  #jessNereus {
-    margin-top: 50px !important;
-    font-size: 50px !important;
-    font-family: 'Rouge Script', cursive;
   }
 
   #details {
@@ -466,31 +471,31 @@ font-family: 'Rouge Script', cursive;
   }
 
   #jessNereus {
-    margin-top: 50px !important;
-    margin-left: -20px;
-    font-size: 67px !important;
+    font-size: 40px;
     letter-spacing: -4px;
-    font-family: 'Rouge Script', cursive;
+    line-height: 10px;
+    margin-left: -10px;
   }
 
   #gettingMarried {
-    font-size: 1px !important;
+    font-size: 15px !important;
     margin-left: 10px;
-    margin-top: -14px;
-    letter-spacing: 6px;
+    margin-top: 0px;
+    letter-spacing: 2px;
   }
 
   #weddingDate {
     margin-left: 10px;
+    margin-top: -5px;
     padding: 0px 0px 6px 0px;
-    font-size: 42px;
-    line-height: 24px;
+    font-size: 22px;
   }
 
   #weddingLocation {
     margin-left: 12px;
+    margin-top: -10px;
     font-family:serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
   }
 
