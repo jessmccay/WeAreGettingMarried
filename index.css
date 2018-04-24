@@ -1,6 +1,6 @@
 .jumbotron {
   background-image: url('images/jumbo.PNG');
-  background-size: cover;
+  background-size: contain;
 }
 
 .mx-auto {
@@ -10,8 +10,9 @@
 }
 
 body {
-    background-color: rgb(140, 62, 100);
-    color: lightpink;
+    background-color: white;
+    /*rgb(140, 62, 100);*/
+    color: black;
 }
 
 #gettingMarried {
@@ -42,105 +43,38 @@ a:hover {
   font-size: 40px;
   font-family: 'Rouge Script', cursive;
 }
-/*#jessNereus{
-font-family: 'Rouge Script', cursive;
-}
-.daisy1 {
-  width: 50px;
-  margin-left: 50px;
-  position: absolute;
-}
-.daisy2 {
-  width: 28px;
-  margin-left: 50px;
-  margin-top: 220PX;
-  position: absolute;
-}
- .daisy3 {
-  width: 25px;
-  margin-left: 50px;
-  margin-top: 220PX;
-  position: absolute;
-}
-.daisy4 {
-  width: 40px;
-  margin-left: 70px;
-  margin-top: 220PX;
 
-  position: absolute;
+#jessNereus{
+  font: 400 100px/2.9 'Great Vibes', Helvetica, sans-serif;
+  font-size: 4.9vw;
+  color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  padding-left: 10%;
 }
-.daisy5 {
-  width: 50px;
-  margin-left: 50px;
-  position: absolute;
-  z-index: -1;
-}
-.daisy6 {
-  width: 20px;
-  margin-left: 50px;
-  margin-top: 105px;
-  z-index: -1;
-  position: absolute;
-}
-.daisy7 {
-  width: 25px;
-  margin-left: 135px;
-  z-index: -1;
-  margin-top: 210px !important;
-  position: absolute;
-}
-.daisy8 {
-  width: 40px;
-  z-index: -1;
-  margin-left: 50px;
-  position: absolute;
-}
-.daisy9{
-  z-index: -1;
-  width: 40px;
-  margin-left: 50px;
-  margin-top: 205px;
-  position: absolute;
-}
-.daisy10 {
-  width: 30px;
-  z-index: -1;
-  margin-left: 50px;
-  margin-top: 105px;
-  /*position: absolute;*/
 
-/*.daisy11 {
-  width: 43px;
-  z-index: -1;
-  margin-left: 50px;
-  margin-top: 105px;
-  position: absolute;
-}
-}*/
-
-@media screen and (max-width : 430px) {
-  #registry {
-    height: 450px;
-    position: relative;
-  }
- #family {
-   width: 200px;
- }
- .jumbotron {
-   padding: 0px 0px 150px 0px;
-   border-radius: 40px !important;
+ #weddingDate {
+   padding: 0px 0px 6px 0px;
+   font-size: 2.9vw;
+   line-height: 10px;
+   margin-top: 5%;
+   padding-left: 15%;
  }
 
- #menu {
-   margin-left: 20px;
-   font-size: 15px;
-   color: white;
+ #weddingLocation {
+   font-size: 2.9vw;
+   padding-left: 15%;
  }
 
- .getting {
+ .call-out {
+   height: 100vh;
+   background-image: url(images/jNBeach.JPG);
+ }
+
+ /*.getting {
    margin: 0pt 0pt 0pt 30pt;
- }
+ }*/
 
+ /*
  #jessNereus {
    margin-top: 50px !important;
    margin-left: -20px;
@@ -153,19 +87,6 @@ font-family: 'Rouge Script', cursive;
    font-size: 10pt;
    letter-spacing: 1pt;
    margin-top: -10px;
- }
-
- #weddingDate {
-   padding: 0px 0px 6px 0px;
-   font-size: 20px;
-   line-height: 10px;
-   margin: 0px;
- }
-
- #weddingLocation {
-   font-size: 12px;
-   margin-top: 5px;
-
  }
 
  #family {
@@ -270,10 +191,10 @@ font-family: 'Rouge Script', cursive;
    text-align: right;
  }
 
-}
+}*/
 
 /*start of MAX-Width screen 580px---------------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 431px) and (max-width: 580px) {
+/*@media screen and (min-width: 431px) and (max-width: 580px) {
   .jumbotron {
     padding: 0px 0px 150px 0px;
     border-radius: 40px !important;
@@ -393,9 +314,9 @@ font-family: 'Rouge Script', cursive;
     width: 30px;
     z-index: -1;
     margin-left: 50px;
-    margin-top: 105px;
+    margin-top: 105px;*/
     /*position: absolute;*/
-  }
+  /*}
   .daisy11 {
     width: 43px;
     z-index: -1;
@@ -459,24 +380,28 @@ font-family: 'Rouge Script', cursive;
     height: 200px;
     width: 250px;
     border-radius: 10px;
-  }
-}  /* close media screen MAX 580 ------------------------------------------------------------------------------------------------ */
+  }*/
+/*}*/
+  /* close media screen MAX 580 ------------------------------------------------------------------------------------------------ */
 
 
 /*Start MIN 581-MAX 767---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-@media only screen and (min-width : 581px) and (max-width : 745px) {
+/*@media only screen and (min-width : 581px) and (max-width : 745px) {
   .jumbotron {
     padding: 0px 0px 195px 0px;
     border-radius: 50px !important;
   }
   #registry {
-    height: 450px;
-    position: relative;
+    height: 250px;;
+
+    float: left;
+
+
   }
   #menu {
     margin-left: 60px;
-    font-size: 25px;
-  }
+    font-size: 25px;*/
+  /*}
 
   .getting {
     margin-top: 10px;
@@ -507,9 +432,9 @@ font-family: 'Rouge Script', cursive;
     margin-top: -5px;
     padding: 0px 0px 6px 0px;
     font-size: 22px;
-  }
+  }*/
 
-  #weddingLocation {
+  /*#weddingLocation {
     margin-left: 12px;
     margin-top: -10px;
     font-family:serif;
@@ -545,8 +470,8 @@ font-family: 'Rouge Script', cursive;
     font-weight: bold;
     text-align: center;
   }
-
-  #lotsToSee {
+*/
+  /*#lotsToSee {
     font-size: 27px;
   }
 
@@ -647,7 +572,7 @@ font-family: 'Rouge Script', cursive;
     margin-left: 50px;
     margin-top: 105px;
     /*position: absolute;*/
-  }
+  /*}
   .daisy11 {
     width: 43px;
     z-index: -1;
@@ -655,10 +580,10 @@ font-family: 'Rouge Script', cursive;
     margin-top: 105px;
     position: absolute;
   }
-} /*close MIN 581-MAX 767---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+} /*close MIN 581-MAX 767---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/*/
 
 /*start 746-1024-------------------------------------------*/
-@media only screen and (min-width : 746px) and (max-width : 1024px) {
+/*@media only screen and (min-width : 746px) and (max-width : 1024px) {
   .jumbotron {
       padding: 0px 0px 215px 0px;
       border-radius: 60px !important;
@@ -681,9 +606,9 @@ font-family: 'Rouge Script', cursive;
   #gettingMarried {
     font-size: 17px;
     letter-spacing: 8px;
-    margin-top: 5px;
+    margin-top: 5px;*/
     /*line-height: 5px;*/
-  }
+  /*}
   #weddingDate {
     font-family: times, Times New Roman, times-roman, georgia, serif;
     padding: 0px 0px 6px 0px;
@@ -703,10 +628,10 @@ font-family: 'Rouge Script', cursive;
     font-size: 40px;
     font-family: 'Rouge Script', cursive;
   }
-
+*/
 /*}*/
 /*@media only screen and (min-width : 781px) and (max-width : 1024px) and (orientation : portrait) {*/
-  .mx-auto {
+  /*.mx-auto {
     height: 200px;
     width: 350px;
     border-radius: 10px;
@@ -765,12 +690,12 @@ font-family: 'Rouge Script', cursive;
     font-weight: bold;
   }
 }
-
+*/
 /*begin largest screen here---1025+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-  @media only screen and (min-width: 1025px) and (max-width: 2580px) {
+  /*@media only screen and (min-width: 1025px) and (max-width: 2580px) {*/
     /*@media only screen and (min-width : 581px) and (max-width : 767px) {*/
 
-    .jumbotron {
+    /*.jumbotron {
       padding: 0px 0px 400px 0px;
       border-radius: 80px !important;
     }
@@ -880,14 +805,11 @@ font-family: 'Rouge Script', cursive;
       z-index: -1;
       margin-left: 50px;
       margin-top: 105px;
-      /*position: absolute;*/
     }
     .daisy11 {
       width: 43px;
       z-index: -1;
       margin-left: 50px;
-      margin-top: 105px;
-      position: absolute;
     }
 
     #goingToMontanaHeader {
@@ -919,9 +841,9 @@ font-family: 'Rouge Script', cursive;
     .attractionHeader {
       font-family: Gill Sans, Verdana;
       font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-weight: bold;
+      text-transform: uppercase;*/
+      /*letter-spacing: 2px;*/
+      /*font-weight: bold;
     }
 
     .attractionDescription {
@@ -930,6 +852,6 @@ font-family: 'Rouge Script', cursive;
       font-size: 18px;
       line-height: 44px;
       letter-spacing: -1px;
-    }
-  }
-}
+    }*/
+  /*}*/
+/*}*/
