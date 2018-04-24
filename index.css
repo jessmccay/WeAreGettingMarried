@@ -70,6 +70,9 @@ a:hover {
    background-image: url(images/jNBeach.JPG);
  }
 
+#shuttle {
+  font-size: 2.9vw;
+}
  /*.getting {
    margin: 0pt 0pt 0pt 30pt;
  }*/
