@@ -1,11 +1,11 @@
-.jumbotron {
+/*.jumbotron {
   background-image: url('images/jumbo.PNG');
   background-size: contain;
-}
+}*/
 
 .mx-auto {
-  height: 200px;
-   width: 350px;
+  height: 8.9vw;
+  width: 12.9vw;
    border-radius: 10pt;
 }
 
@@ -18,14 +18,19 @@ body {
 #gettingMarried {
   font-weight: bold;
 }
+
 #weddingDate {
   font-family: times, Times New Roman, times-roman, georgia, serif;
   font-weight: bold;
+  padding: 0px 0px 6px 0px;
+  font-size: 2.9vw;
+  line-height: 10px;
+  margin-top: 5%;
+  padding-left: 15%;
 }
+
 #rsvp  {
-  font-family: times, Times New Roman, times-roman, georgia, serif;
-  font-weight: bold;
-  text-align: center;
+  width: 50%;
 }
 
 hr {
@@ -52,13 +57,6 @@ a:hover {
   padding-left: 10%;
 }
 
- #weddingDate {
-   padding: 0px 0px 6px 0px;
-   font-size: 2.9vw;
-   line-height: 10px;
-   margin-top: 5%;
-   padding-left: 15%;
- }
 
  #weddingLocation {
    font-size: 2.9vw;
@@ -68,14 +66,65 @@ a:hover {
  .call-out {
    height: 100vh;
    background-image: url(images/jNBeach.JPG);
+   background-size: cover;
+   background-repeat: no-repeat;
+   opacity: 0.8;
  }
 
 #shuttle {
   font-size: 1.9vw;
 }
- /*.getting {
-   margin: 0pt 0pt 0pt 30pt;
- }*/
+
+#goingToMontanaHeader {
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  margin: 0;
+  padding: 0px 0px 6px 0px;
+  font-size: 2.4vw;
+  line-height: 64px;
+  letter-spacing: -2px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#lotsToSee {
+  font-size: 2.2vw;
+  text-align: right;
+}
+.montana {
+  font-size: 3.9vw;
+}
+
+.attractionHeader,  .attractionDescription {
+  padding-bottom: 60px !important;
+}
+
+.attractionHeader {
+  font-family: Gill Sans, Verdana;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.boxed {
+  font-size: 16px;
+}
+.registry {
+  width: 40%;
+}
+.poopregistry {
+width:  100px;
+}
+
+/*.parent {
+  flex-wrap: wrap;
+}
+
+.child {
+  flex-wrap: wrap;
+  flex-direction: column;
+}*/
 
  /*
  #jessNereus {
@@ -107,92 +156,7 @@ a:hover {
    font-size: 70px;
    text-align: center;
  }
- .daisy1 {
-   width: 10px;
-   margin-left: 50px;
-   position: absolute;
- }
- .daisy2 {
-   width: 28px;
-   margin-left: 50px;
-   margin-top: 20PX;
-   position: absolute;
- }
-  .daisy3 {
-   width: 25px;
-   margin-left: 30px;
-   margin-top: 30PX;
-   position: absolute;
- }
- .daisy4 {
-   width: 40px;
-   margin-left: 100px;
-   margin-top: 10PX;
-   position: absolute;
- }
- .daisy5 {
-   width: 20px;
-   position: absolute;
- }
- .daisy6 {
-   width: 10px !important;
-   margin-left: 50px;
-   margin-top: 105px;
-   z-index: -1;
-   position: absolute;
- }
- .daisy7 {
-   width: 25px;
-   margin-left: 135px;
-   z-index: -1;
-   margin-top: 40px !important;
-   position: absolute;
- }
- .daisy8 {
-   width: 40px;
-   z-index: -1;
-   margin-left: 50px;
-   position: absolute;
- }
- .daisy9{
-   z-index: -1;
-   width: 40px;
-   margin-left: 50px;
-   margin-top: 205px;
-   position: absolute;
- }
- .daisy10 {
-   width: 30px;
-   z-index: -1;
-   margin-left: 50px;
-   margin-top: 105px;
-   position: absolute;
- }
- .daisy11 {
-   width: 4px;
-   z-index: -1;
-   margin-left: 50px;
-   margin-top: 105px;
-   position: absolute;
- }
- #goingToMontanaHeader {
-   font-family: times, Times New Roman, times-roman, georgia, serif;
-   margin: 0;
-   padding: 0px 0px 6px 0px;
-   font-size: 27px;
-   line-height: 64px;
-   letter-spacing: -2px;
-   font-weight: bold;
-   text-align: center;
- }
 
- #lotsToSee {
-   font-size: 17px;
- }
- .montana {
-   font-size: 40px;
-   text-align: right;
- }
 
 }*/
 
@@ -201,10 +165,6 @@ a:hover {
   .jumbotron {
     padding: 0px 0px 150px 0px;
     border-radius: 40px !important;
-  }
-  #registry {
-    height: 450px;
-    position: relative;
   }
   #menu {
     margin-left: 30px;
@@ -246,11 +206,7 @@ a:hover {
     border-radius: 10px;
   }
 
-  #details {
-    margin-top: 40px;
-    line-height: 30px;
-    letter-spacing: -1;
-  }
+
 
 
    #rsvp  {
@@ -340,30 +296,6 @@ a:hover {
     text-align: center;
   }
 
-  #lotsToSee {
-    font-size: 27px;
-  }
-  .montana {
-    font-size: 70px;
-    text-align: right;
-  }
-
-  .attractionHeader,  .attractionDescription {
-      padding-bottom: 60px !important;
-  }
-
-  .attractionHeader {
-    font-family: Gill Sans, Verdana;
-    font-size: 14px;
-    line-height: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-  }
-
-  .boxed {
-    font-size: 16px;
-  }
 
   .daisy {
     width: 80px;
