@@ -19,130 +19,71 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+
     <link href="https://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet">
-    <style>
-      .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-      }
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 
-      .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-      }
-
-      .sidenav a:hover {
-        color: #f1f1f1;
-      }
-
-      .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-      }
-      @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
-      }
-  </style>
 </head>
   <body>
-    <div class="container">
-
-
-    <div class="container">
-      <div class="jumbotron">
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="http://McCayBrownWedding.rsvpify.com">RSVP</a>
-          <a href="#goingToMontanaHeader">Sites to see</a>
-          <a href="#registry">Registry</a>
-          <a href="#">Contact</a>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" name="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#the-links">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Wedding</a>
         </div>
-        <span id="menu" style="cursor:pointer" onclick="openNav()">&#9776; menu</span>
-
-        <script>
-          function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-          }
-          function closeNav() {
-              document.getElementById("mySidenav").style.width = "0";
-          }
-        </script>
-
+        <div class="collapse navbar-collapse" id="the-links">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="https://McCayBrownWedding.rsvpify.com" target="_blank">RSVP</a></li>
+            <li><a href="#">Amazon Registry</a></li>
+            <li><a href="https://www.zola.com/wedding/jessicaandnereus/registry" target="_blank">Zola Registry</a></li>
+          </ul>
         </div>
       </div>
+    </nav>
 
-      <div class="flexbox-container">
-        <div class="call-out">
-          <div class="getting">
-
-            <div id="details_section" class="row">
-              <div class="col-xs-6">
-                <span id="jessNereus"> Jessica & Nereus</span>
-                <h1 id="gettingMarried">are getting married!</h1>
-                <h2 id="weddingDate"> 30th June, 2018</h2>
-                <h2 id="weddingLocation">Arlee, Montana.</h2>
-              </div>
-
-              <div class="col-xs-4">
-                  <img id="family" src="images/family.JPG" alt="family">
-              </div>
+    <div class="flexbox-container">
+      <div class="call-out">
+        <div class="getting">
+          <div id="details_section" class="row">
+            <div class="col-xs-6">
+              <span id="jessNereus"> Jessica + Nereus</span>
+              <h2 id="weddingDate"> 30th June, 2018</h2>
+              <h2 id="weddingLocation">Arlee, Montana.</h2>
             </div>
               <div class="col-xs-2">
-              </div>
             </div>
-            <p id="details"><span id="the">We found love</span> and we want to celebrate it with you! The  wedding ceremony and reception will be at the McCay residence in Arlee, MT.
-              We are offering complementary shuttle service both before the wedding ceremony and during the reception one at 9:30 and another 11:00 which will be bringing you back to the same location it picked you up at.
-              Please email <span font-weight="bold";> jessmccay@gmail.com</span> if you would like more details and to make arrangements.
-              We love to dance so remember to bring along some comfortable shoes! This is an outdoor ceremony and reception.
-            <br>
+          </div>
         </div>
       </div> <!--close flex container-->
+      <p id="shuttle">Would you like to take a shuttle to the wedding and back to missoula after the reception? Please <a href="mailto:jessmccay@gmail.com?subject=Shuttle%20Service&body=Yes,%20I%20would%20love%20to%20take%20a%20shuttle.">CLICK HERE TO RESPOND. Please sign your name and dont forget to click send!</a> If there is enough demand we will provide a shuttle!</p>
+
+      <p id="details"><span id="the">We found love</span> and we want to celebrate it with you! The  wedding ceremony and reception will be at the McCay residence in Arlee, MT.
+        We are offering complementary shuttle service both before the wedding ceremony and during the reception one at 9:30 and another 11:00 which will be bringing you back to the same location it picked you up at.
+        Please email <span font-weight="bold";> jessmccay@gmail.com</span> if you would like more details and to make arrangements.
+        We love to dance so remember to bring along some comfortable shoes! This is an outdoor ceremony and reception.
+      </p>
 
 <br>
 <br>
 <br>
 <hr>
-<!-- <div class="row"> -->
-  <!-- <div class="col-xs-2"> -->
-    <!-- <img class="daisy1" src="images/daisy.png" alt="">
-    <img class="daisy2" src="images/daisy.png" alt="">
-    <img class="daisy3" src="images/daisy.png" alt=""> -->
+<div class="parent">
+  <div class="child">
+    <a href="https://www.amazon.com/wedding/jessica-mccay-nereus-brown-arlee-june-2018/registry/PAP93ASIJOKN" target="_blank"> <img class="registry amazon1" src="images/amazonRegistry.png"></a>
+  </div>
+  <div class="child">
+    <a  href="https://www.zola.com/wedding/jessicaandnereus/registry" target="_blank"> <img class="registry zola1" src="images/zola-logos/png/zola-logo-blue.png" alt="https://www.zola.com/wedding/jessicaandnereus/registry"></a>
+  </div>
+  <div class="child">
+    <a href="http://McCayBrownWedding.rsvpify.com" target="_blank"> <img id="rsvp" src="images/RSVP.png" alt="rsvp"></a>
+  </div>
+</div>
 
-  <!-- </div> -->
-
-    <!-- <div class="col-xs-2"> -->
-      <!-- <img class="daisy4" src="images/daisy.png" alt="">
-      <img class="daisy4" src="images/daisy.png" alt=""> -->
-      <a  href="https://www.zola.com/wedding/jessicaandnereus/registry" target="_blank"> <img id="registry" src="images/zola-logos/png/zola-logo-pride.png" alt="https://www.zola.com/wedding/jessicaandnereus/registry"></a>
-      <h1 id="rsvp"><a href="http://McCayBrownWedding.rsvpify.com">RSVP</a></h1>
-      <!-- <img class="daisy11" src="images/daisy.png" alt="">
-      <img class="daisy10" src="images/daisy.png" alt=""> -->
-    <!-- </div> -->
-
-  <!-- <div class="col-xs-8"> -->
-    <!-- <img class="daisy6" src="images/daisy.png" alt="">
-    <img class="daisy7" src="images/daisy.png" alt="">
-    <img class="daisy8" src="images/daisy.png" alt="">
-    <img class="daisy9" src="images/daisy.png" alt=""> -->
-  <!-- </div> -->
-
-<!-- </div> -->
 <hr>
 <br>
 <br>
@@ -163,14 +104,14 @@
         <img class="rounded-circle img-fluid d-block mx-auto" src="images/yellowstone.jpg" alt="Yellowstone National Park" height="200px" width="350px">
         <h3>Yellowstone National Park </h3>
         <p class="attractionDescription">If you are making the trek to Montana, why not travel to the famous Yellowstone National Park?
-         Learn more about Yellowstone National Park <a href="https://www.nps.gov/yell/index.htm">here.</a></p>
+         Learn more about Yellowstone National Park <a href="https://www.nps.gov/yell/index.htm" target="_blank" >here.</a></p>
       </div>
 
       <div class="col-lg-4 col-sm-6 text-center mb-4">
         <img class="rounded-circle img-fluid d-block mx-auto" src="images/flathead.jpg" alt="Flathead Lake" >
         <h3>Flathead Lake</h3>
         <p class="attractionDescription">Love the water? Well then you must take a dip in the largest natural freshwater lake west of the Mississippi!
-          Learn more about Flathead Lake <a href="http://www.visitmt.com/listings/general/lake/flathead-lake.html">here.</a></p>
+          Learn more about Flathead Lake <a href="http://www.visitmt.com/listings/general/lake/flathead-lake.html" target="_blank" >here.</a></p>
       </div>
 
       <div class="col-lg-4 col-sm-6 text-center mb-4">
@@ -182,14 +123,14 @@
       <div class="col-lg-4 col-sm-6 text-center mb-4">
         <img class="rounded-circle img-fluid d-block mx-auto" src="images/glacier-national-park.jpg" alt="Glacier National Park" height="200px" width="350px">
         <h3>Glacier National Park </h3>
-        <p class="attractionDescription">Take a day trip or go camping surrounding by breathtaking beauty. You havent quite lived until riding down The Sun Road!
-          Learn more about Glacier National Park <a href="https://www.nps.gov/glac/index.htm">here.</a></p>
+        <p class="attractionDescription">Take a day trip or go camping and be surrounded by breathtaking beauty. You havent quite lived until riding down The Sun Road! Wildlife sightings are likely.
+          Learn more about Glacier National Park <a href="https://www.nps.gov/glac/index.htm"target="_blank">here.</a></p>
         </div>
 
       <div class="col-lg-4 col-sm-6 text-center mb-4">
         <img class="rounded-circle img-fluid d-block mx-auto" src="images/gardenofbuddhas.jpg" alt="Garden of 1000 Buddha's">
         <h3>Garden of 1000 Buddha's </h3>
-        <p class="attractionDescription">Just down the road in Arlee you will find the Garden of 1000 Buddha's. This impressive site is free to visit.Learn more about Garden of 1000 Buddha's <a href="http://www.ewambuddhagarden.org/">here.</a>
+        <p class="attractionDescription">Just down the road in Arlee you will find the Garden of 1000 Buddha's. This impressive site is free to visit.Learn more about Garden of 1000 Buddha's <a href="http://www.ewambuddhagarden.org/" target="_blank" >here.</a>
         </p>
       </div>
 
