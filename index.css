@@ -110,26 +110,42 @@ a:hover {
 .boxed {
   font-size: 16px;
 }
-.registry {
-  width: 40%;
-}
-.poopregistry {
-width:  100px;
-}
 
 .parent {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin: 40px auto 0 auto;
 }
 
 .child {
-  flex-grow: 5;
-  align-items: flex-start;
+  flex-basis: 30%;
+  margin-left: 10%;
+  width: 40px;
 }
 
 p {
 margin:  0px 22px -31px !important;
+}
+
+img#rsvp {
+  width: 100%;
+  margin-top: 32%;
+  margin-left: -25%;
+}
+
+/*img.registry {
+  width: 100%;
+}*/
+.zola1 {
+  /*margin-top: 10%;*/
+  width: 150%;
+  margin-left: -40%;
+}
+
+.amazon1 {
+  margin-top: 45%;
+    width: 100%;
 }
 
  /*
