@@ -134,6 +134,11 @@ img#rsvp {
   margin-left: -25%;
 }
 
+.parent img:hover{
+  opacity: 0.5;
+}
+
+
 /*img.registry {
   width: 100%;
 }*/
