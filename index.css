@@ -4,9 +4,9 @@
 }*/
 
 .mx-auto {
-  height: 8.9vw;
-  width: 12.9vw;
-   border-radius: 10pt;
+  height: 9.9vw;
+  width: 13.9vw;
+  border-radius: 10pt;
 }
 
 body {
@@ -44,10 +44,10 @@ a {
 a:hover {
   color: lightgreen;
 }
-#the {
+/*#the {
   font-size: 40px;
   font-family: 'Rouge Script', cursive;
-}
+}*/
 
 #jessNereus{
   font: 400 100px/2.9 'Great Vibes', Helvetica, sans-serif;
@@ -66,7 +66,8 @@ a:hover {
  .call-out {
    height: 100vh;
    background-image: url(images/jNBeach.JPG);
-   background-size: cover;
+
+   background-size: 100vw;
    background-repeat: no-repeat;
    opacity: 0.8;
  }
@@ -78,12 +79,12 @@ a:hover {
 #goingToMontanaHeader {
   font-family: times, Times New Roman, times-roman, georgia, serif;
   margin: 0;
-  padding: 0px 0px 6px 0px;
+  /*padding: 0px 0px 6px 0px;*/
   font-size: 2.4vw;
-  line-height: 64px;
+  /*line-height: 64px;*/
   letter-spacing: -2px;
   font-weight: bold;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #lotsToSee {
@@ -106,10 +107,10 @@ a:hover {
   letter-spacing: 2px;
   font-weight: bold;
 }
-
+/*
 .boxed {
   font-size: 16px;
-}
+}*/
 
 .parent {
   display: flex;
