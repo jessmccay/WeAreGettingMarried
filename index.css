@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: white;
+    
     /*rgb(140, 62, 100);*/
     color: black;
 }
@@ -66,23 +66,13 @@ a:hover {
  }
 
  .call-out {
-   height: 100vh;
+   height: 60vw;
    background-image: url(images/jNBeach.JPG);
-
-   background-size: 100vw;
    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
    opacity: 0.8;
  }
-
-#shuttle {
-  font-size: 1.9vw;
-  border-color: rgba(260, 36, 158, 5.5);
-  border-style: inset;
-  border-width: 20px;;
-  border-right-width: 20px;
-  border-top-width: 20px;
-  text-align: center;
-}
 
 #goingToMontanaHeader {
   font-family: times, Times New Roman, times-roman, georgia, serif;
@@ -159,10 +149,13 @@ img#rsvp {
   width: 100%;
   margin-top: 32%;
   margin-left: -25%;
+  border-width: medium;
+  border-color: lightblue;
+  border-style: inset;
 }
 
 .parent img:hover{
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 
@@ -173,21 +166,42 @@ img#rsvp {
   /*margin-top: 10%;*/
   width: 150%;
   margin-left: -40%;
+  border-width: medium;
+  border-color: lightblue;
+  border-style: ridge;
 }
 
 .amazon1 {
   margin-top: 45%;
     width: 100%;
+    border-width: medium;
+    border-color: lightblue;
+    border-style: inset;
+    padding-left: 10%;
 }
 
 
   #details {
     border-style: inset;
-    border-width: 20px;
-    border-color: rgba(260, 36, 158, 5.5);
+    border-width: 2.4vw;
+    border-color: rgb(105, 200, 230);
+    /*border-color: rgba(260, 36, 158, 5.5);*/
     text-align: center;
     font-size: 1.9vw;
-    box-sizing: border-box;
+    width: 105%;
+    border-right-width: 20px;
+    border-top-width: 20px;
+  }
+
+  #shuttle {
+    font-size: 1.9vw;
+    border-color: rgba(105, 200, 230, 5.5);
+    border-style: inset;
+    border-width: 2.4vw;;
+    border-right-width: 20px;
+    border-top-width: 20px;
+    text-align: center;
+    width: 105%;
   }
 
  /*
