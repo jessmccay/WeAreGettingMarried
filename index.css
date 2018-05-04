@@ -8,9 +8,12 @@
   width: 13.9vw;
   border-radius: 10pt;
 }
-
+.navbar  {
+  background-color: lightblue;
+  margin-bottom: 0px;
+}
 body {
-    
+
     /*rgb(140, 62, 100);*/
     color: black;
 }
@@ -39,7 +42,7 @@ hr {
   border-width: thin;
 }
 a {
-  color: lightpink;
+  color: orange;
 }
 
 a:hover {
@@ -76,11 +79,11 @@ a:hover {
 
 #goingToMontanaHeader {
   font-family: times, Times New Roman, times-roman, georgia, serif;
-  margin: 0;
+
   /*padding: 0px 0px 6px 0px;*/
-  font-size: 2.4vw;
+  font-size: 1.9vw;
   /*line-height: 64px;*/
-  letter-spacing: -2px;
+  /*letter-spacing: -2px;*/
   font-weight: bold;
   /*text-align: center;*/
 }
@@ -90,7 +93,7 @@ a:hover {
   text-align: right;
 }
 .montana {
-  font-size: 3.9vw;
+  font-size: 2.9vw;
 }
 
 .attractionHeader,  .attractionDescription {
