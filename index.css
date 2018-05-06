@@ -1,16 +1,14 @@
-/*.jumbotron {
-  background-image: url('images/jumbo.PNG');
-  background-size: contain;
-}*/
 body, html {
     height: 100%;
 }
+
 .flexbox-container {
   height: 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
-  background-size: cover;
-  background-image: url(images/jNBeach.JPG);
+  background-size: contain;
+  background-image: url(images/IMG_0019-COLLAGE.jpg);
+  opacity: 0.8;
 }
 
 .mx-auto {
@@ -18,12 +16,12 @@ body, html {
   width: 13.9vw;
   border-radius: 10pt;
 }
+
 .navbar  {
-  background-color: lightblue;
+  background-color: rgb(150,200,239);
   margin-bottom: 0px;
 }
 body {
-
     /*rgb(140, 62, 100);*/
     color: black;
 }
@@ -33,39 +31,66 @@ body {
 }
 
 
-#rsvp  {
+/*#rsvp  {
   width: 50%;
-}
+}*/
 
-hr {
-  border-color: pink;
-  border-width: thin;
-}
 a {
   color: orange;
 }
 
 a:hover {
   color: lightgreen;
+  background-color: lightblue;
 }
+
 #the {
   font-size: 40px;
   font-family: 'Rouge Script', cursive;
 }
 
-.jessNereus{
-/*/  margin-top: 141px !important;*/
-  padding-top: 15vw;;
-  /*font: 400 100px/2.9 'Great Vibes', Helvetica, sans-serif;*/
-  font-size: 4.9vw;
-  color:rgb(58, 37, 216);
-  /*text-shadow: 4px 4px 0px rgba(0,0,0,0.1);*/
-
-  font-family: 'Sacramento', cursive;
+#jessNereusWedding {
+  text-align: center;
+  font-size: 5.4vw;
+  opacity: 1 !important;
 }
 
+#rsvpText {
+  color: rgb(150,200,239);
+  margin-top: 100%;
+  /*font-family: 'Alex Brush', cursive;*/
+  font-family: 'Oranienbaum', serif;
+}
+
+#hearts {
+position: absolute;
+  z-index: -1;
+}
+
+#details_section {
+
+  margin-left: 21vw;
+}
+
+#namesDateLocation {
+  background-color: black;
+  color: white;
+  padding: 1.5vw;
+  text-align: center;
+}
+.jessNereus{
+  color: rgb(9, 4,4);
+/*/  margin-top: 141px !important;*/
+
+  padding-top: 15vw;
+    /*margin-left: 7%;*/
+  font-size: 3.4vw;
+  /*text-shadow: 4px 4px 0px rgba(0,0,0,0.1);*/
+  /*font-family: 'Alex Brush', cursive;*/
+}
+/*
 #weddingDate {
-  font-family: 'Sacramento', cursive;
+  font-family: 'Alex Brush', cursive;
 
   padding: 0px 0px 6px 0px;
   font-size: 2.9vw;
@@ -74,11 +99,11 @@ a:hover {
   padding-left: 15%;
 }
  #weddingLocation {
+   font-family: 'Alex Brush', cursive;
    font-size: 2.9vw;
    padding-left: 15%;
-   font-family: 'Sacramento', cursive;
    margin-top: 1%;
- }
+ }*/
 
 
 #goingToMontanaHeader {
@@ -112,10 +137,6 @@ a:hover {
   letter-spacing: 2px;
   font-weight: bold;
 }
-/*
-.boxed {
-  font-size: 16px;
-}*/
 
 .parent {
   display: flex;
@@ -127,10 +148,16 @@ a:hover {
 
 .child {
   flex-basis: 30%;
-  margin-left: 10%;
   width: 40px;
   flex: 1;
- padding: 16px;
+  padding: 16px;
+  border-color: rgb(150,200,239);
+  border-style: inset;
+  border-width: thick;
+  text-align: center;
+  font-size: 9vw;
+  border-right-width: 20px;
+  border-top-width: 20px;
 }
 
 .parent2 {
@@ -152,15 +179,6 @@ p {
 margin:  0px 22px -31px !important;
 }
 
-img#rsvp {
-  width: 100%;
-  margin-top: 32%;
-  margin-left: -25%;
-  border-width: medium;
-  border-color: lightblue;
-  border-style: inset;
-}
-
 .parent img:hover{
   opacity: 0.3;
 }
@@ -172,26 +190,20 @@ img#rsvp {
 .zola1 {
   /*margin-top: 10%;*/
   width: 150%;
-  margin-left: -40%;
-  border-width: medium;
-  border-color: lightblue;
-  border-style: ridge;
+  margin-left: -30%;
 }
 
 .amazon1 {
   margin-top: 45%;
     width: 100%;
-    border-width: medium;
-    border-color: lightblue;
-    border-style: inset;
+    border-width: thick;
     padding-left: 10%;
 }
-
 
   #details {
     border-style: inset;
     border-width: 2.4vw;
-    border-color: rgb(105, 200, 230);
+    border-color: rgb(150,200,239);
     /*border-color: rgba(260, 36, 158, 5.5);*/
     text-align: center;
     font-size: 1.9vw;
@@ -202,11 +214,6 @@ img#rsvp {
 
   #shuttle {
     font-size: 1.9vw;
-    border-color: rgba(105, 200, 230, 5.5);
-    border-style: inset;
-    border-width: 2.4vw;;
-    border-right-width: 20px;
-    border-top-width: 20px;
     text-align: center;
     width: 105%;
   }
@@ -427,10 +434,6 @@ img#rsvp {
     margin-top: 10px;
     margin-left: 20px;
 
-  }
-  #details_section {
-    color: rgb(5, 5, 5);
-    margin-left: 30px;
   }
 
   #jessNereus {
