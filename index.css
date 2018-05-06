@@ -2,6 +2,16 @@
   background-image: url('images/jumbo.PNG');
   background-size: contain;
 }*/
+body, html {
+    height: 100%;
+}
+.flexbox-container {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(images/jNBeach.JPG);
+}
 
 .mx-auto {
   height: 9.9vw;
@@ -22,16 +32,6 @@ body {
   font-weight: bold;
 }
 
-#weddingDate {
-  font-family: serif;
-  font: 400 100px/2.9 'Great Vibes', Helvetica, sans-serif;
-  font-weight: bold;
-  padding: 0px 0px 6px 0px;
-  font-size: 2.9vw;
-  line-height: 10px;
-  margin-top: 5%;
-  padding-left: 15%;
-}
 
 #rsvp  {
   width: 50%;
@@ -48,34 +48,38 @@ a {
 a:hover {
   color: lightgreen;
 }
-/*#the {
+#the {
   font-size: 40px;
   font-family: 'Rouge Script', cursive;
-}*/
-
-#jessNereus{
-  font: 400 100px/2.9 'Great Vibes', Helvetica, sans-serif;
-  font-size: 4.9vw;
-  color: #2b2b2b;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
-  padding-left: 10%;
 }
 
+.jessNereus{
+/*/  margin-top: 141px !important;*/
+  padding-top: 15vw;;
+  /*font: 400 100px/2.9 'Great Vibes', Helvetica, sans-serif;*/
+  font-size: 4.9vw;
+  color:rgb(58, 37, 216);
+  /*text-shadow: 4px 4px 0px rgba(0,0,0,0.1);*/
 
+  font-family: 'Sacramento', cursive;
+}
+
+#weddingDate {
+  font-family: 'Sacramento', cursive;
+
+  padding: 0px 0px 6px 0px;
+  font-size: 2.9vw;
+  line-height: 10px;
+  margin-top: 5%;
+  padding-left: 15%;
+}
  #weddingLocation {
-   font: 400 100px/2.9 'Great Vibes', Helvetica, sans-serif;
    font-size: 2.9vw;
    padding-left: 15%;
+   font-family: 'Sacramento', cursive;
+   margin-top: 1%;
  }
 
- .call-out {
-   height: 60vw;
-   background-image: url(images/jNBeach.JPG);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   opacity: 0.8;
- }
 
 #goingToMontanaHeader {
   font-family: times, Times New Roman, times-roman, georgia, serif;
