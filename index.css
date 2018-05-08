@@ -75,14 +75,14 @@ position: absolute;
 #namesDateLocation {
   background-color: black;
   color: white;
-  padding: 1.5vw;
+  padding: 1.6vw;
   text-align: center;
 }
 .jessNereus{
   color: rgb(9, 4,4);
 /*/  margin-top: 141px !important;*/
 
-  padding-top: 15vw;
+  padding-top: 17vw;
     /*margin-left: 7%;*/
   font-size: 3.4vw;
   /*text-shadow: 4px 4px 0px rgba(0,0,0,0.1);*/
@@ -890,3 +890,4 @@ margin:  0px 22px -31px !important;
     }*/
   /*}*/
 /*}*/
+[]
