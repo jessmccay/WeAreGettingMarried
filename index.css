@@ -36,7 +36,7 @@ body {
 }*/
 
 a {
-  color: orange;
+  color:  rgb(150,200,239)
 }
 
 a:hover {
@@ -158,6 +158,24 @@ position: absolute;
   font-size: 9vw;
   border-right-width: 20px;
   border-top-width: 20px;
+  background-color: rgb(25, 20, 20);
+  color: rgb(150,200,239);
+
+}
+h1  {
+  font-size: 8vw;
+}
+
+h6 {
+  font-size: 2vw;
+  letter-spacing: .5vw;
+}
+.rsvpChild {
+  margin-left: 5vw;
+}
+
+.children {
+  margin-right: 5vw;
 }
 
 .parent2 {
