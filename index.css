@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+
 }
 
 .flexbox-container {
@@ -21,22 +22,10 @@ body, html {
   background-color: rgb(150,200,239);
   margin-bottom: 0px;
 }
-body {
-    /*rgb(140, 62, 100);*/
-    color: black;
-}
+
 
 #gettingMarried {
   font-weight: bold;
-}
-
-
-/*#rsvp  {
-  width: 50%;
-}*/
-
-a {
-  color:  rgb(150,200,239)
 }
 
 a:hover {
@@ -56,7 +45,8 @@ a:hover {
 }
 
 #rsvpText {
-  color: rgb(150,200,239);
+  color: yellow;
+  /*color: rgb(150,200,239);*/
   margin-top: 100%;
   /*font-family: 'Alex Brush', cursive;*/
   font-family: 'Oranienbaum', serif;
@@ -74,12 +64,13 @@ position: absolute;
 
 #namesDateLocation {
   background-color: black;
-  color: white;
-  padding: 1.6vw;
+  padding: .9vw;
+  color:rgb(150,200,239);
+
   text-align: center;
 }
 .jessNereus{
-  color: rgb(9, 4, 4);
+
 /*/  margin-top: 141px !important;*/
 
   padding-top: 17vw;
@@ -88,33 +79,13 @@ position: absolute;
   /*text-shadow: 4px 4px 0px rgba(0,0,0,0.1);*/
   /*font-family: 'Alex Brush', cursive;*/
 }
-/*
-#weddingDate {
-  font-family: 'Alex Brush', cursive;
-
-  padding: 0px 0px 6px 0px;
-  font-size: 2.9vw;
-  line-height: 10px;
-  margin-top: 5%;
-  padding-left: 15%;
-}
- #weddingLocation {
-   font-family: 'Alex Brush', cursive;
-   font-size: 2.9vw;
-   padding-left: 15%;
-   margin-top: 1%;
- }*/
-
 
 #goingToMontanaHeader {
-  font-family: times, Times New Roman, times-roman, georgia, serif;
-
-  /*padding: 0px 0px 6px 0px;*/
+  font-family: 'Pinyon Script', cursive;
+  color: black;
   font-size: 1.9vw;
-  /*line-height: 64px;*/
-  /*letter-spacing: -2px;*/
+
   font-weight: bold;
-  /*text-align: center;*/
 }
 
 #lotsToSee {
@@ -144,6 +115,11 @@ position: absolute;
   max-width: 100%;
   margin: 40px auto 0 auto;
   width: 100%;
+
+  background-color: lightblue;
+}
+h1, h6 {
+  color: yellow;
 }
 
 .child {
@@ -151,17 +127,13 @@ position: absolute;
   width: 40px;
   flex: 1;
   padding: 16px;
-  border-color: rgb(150,200,239);
-  border-style: inset;
-  border-width: thick;
   text-align: center;
   font-size: 9vw;
-  border-right-width: 20px;
-  border-top-width: 20px;
-  background-color: rgb(25, 20, 20);
-  color: rgb(150,200,239);
-
+  font-weight: bold;
+  /*color: rgb(150,200,239);*/
+    /*text-shadow: 2px 2px rgba(11,53,46, 0.6);*/
 }
+
 h1  {
   font-size: 8vw;
 }
@@ -170,15 +142,18 @@ h6 {
   font-size: 2vw;
   letter-spacing: .5vw;
 }
+
 .rsvpChild {
   margin-left: 5vw;
 }
 
 .children {
   margin-right: 5vw;
+  border-left: 0;
 }
 
 .parent2 {
+  background-color: lightblue;
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
@@ -193,6 +168,10 @@ h6 {
   flex: 1;
 }
 
+#love{
+  color: yellow;
+}
+
 p {
 margin:  0px 22px -31px !important;
 }
@@ -201,10 +180,30 @@ margin:  0px 22px -31px !important;
   opacity: 0.3;
 }
 
+table {
+  text-align: right;
+  border-width: thin;
+  border-style: double;
+  border-color: rgb(102,2,60);
+  color: rgb(102,2,60);
+  background-color: #ffefdb;
+  margin-top: 5vw;
 
-/*img.registry {
-  width: 100%;
-}*/
+}
+
+#sunflower {
+
+}
+
+.time {
+    font-size: 2vw;
+}
+
+.scheduleInfo {
+    font-size: 2vw;
+  text-align: left;
+  padding-left: 5vw;
+}
 .zola1 {
   /*margin-top: 10%;*/
   width: 150%;
@@ -219,21 +218,17 @@ margin:  0px 22px -31px !important;
 }
 
   #details {
-    border-style: inset;
-    border-width: 2.4vw;
-    border-color: rgb(150,200,239);
-    /*border-color: rgba(260, 36, 158, 5.5);*/
-    text-align: center;
+    color: gray;
     font-size: 1.9vw;
     width: 105%;
-    border-right-width: 20px;
-    border-top-width: 20px;
+    font-weight: bold;
   }
 
   #shuttle {
     font-size: 1.9vw;
     text-align: center;
     width: 105%;
+    color: gray;
   }
 
  /*
