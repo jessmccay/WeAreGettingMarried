@@ -172,7 +172,7 @@ h6 {
 
 .love{
   color: dodgerblue;
-  font-family: 'Tangerine', cursive;
+  font-family: 'Pinyon Script', cursive;
   font-size: 4vw;
 }
 #love {
@@ -191,6 +191,11 @@ margin:  0px 22px -31px !important;
 
 .parent img:hover{
   opacity: 0.3;
+}
+
+th {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 3vw;
 }
 
 table {
@@ -234,7 +239,7 @@ table {
     color: gray;
     font-size: 1.9vw;
     width: 105%;
-    font-weight: bold;
+    line-height: 3vw;
   }
 
   #shuttle {
