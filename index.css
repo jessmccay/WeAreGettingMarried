@@ -22,6 +22,7 @@ body, html {
 .navbar  {
   background-color: rgb(150,200,239);
   margin-bottom: 0px;
+
 }
 
 
@@ -46,9 +47,9 @@ a:hover {
 }
 
 #rsvpText {
-  color: yellow;
+  /*color: yellow;*/
   /*color: rgb(150,200,239);*/
-  margin-top: 100%;
+  /*margin-top: 100%;*/
   /*font-family: 'Italianno', cursive;*/
   font-family: 'Pinyon Script', cursive;
   /*font-family: 'Oranienbaum', serif;*/
@@ -57,7 +58,7 @@ a:hover {
 
 #hearts {
 position: absolute;
-  z-index: -1;
+  z-index: 1;
 }
 
 #details_section {
@@ -86,17 +87,19 @@ position: absolute;
 #goingToMontanaHeader {
   font-family: 'Pinyon Script', cursive;
   color: black;
-  font-size: 1.9vw;
+  font-size: 4.1vw;
 
-  font-weight: bold;
 }
 
 #lotsToSee {
-  font-size: 2.2vw;
+  font-size: 4.1vw;
   text-align: right;
+  font-family: 'Pinyon Script', cursive;
+
 }
 .montana {
-  font-size: 2.9vw;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 4.9vw;
 }
 
 .attractionHeader,  .attractionDescription {
@@ -121,21 +124,19 @@ position: absolute;
 
   background-color: lightblue;
 }
-h1, h6 {
-  color: yellow;
-  font-family: 'Italianno', cursive;
-/*font-family: 'Pinyon Script', cursive;*/
-}
 
 .child {
   flex-basis: 30%;
-  width: 40px;
-  flex: 1;
-  padding: 16px;
-  text-align: center;
-  font-size: 9vw;
+    width: 40px;
+    flex: 1;
+    padding: 16px;
+    margin: 9px;
+    text-align: center;
+    font-size: 9vw;
+    border-style: outset;
+    background-color: paleturquoise;
 }
-
+/*
 h1  {
   font-size: 8vw;
 }
@@ -143,7 +144,7 @@ h1  {
 h6 {
   font-size: 2vw;
   letter-spacing: .5vw;
-}
+}*/
 
 .rsvpChild {
   margin-left: 5vw;
@@ -168,6 +169,7 @@ h6 {
   margin: 10%;
   width: 40px;
   flex: 1;
+
 }
 
 .love{
@@ -198,18 +200,32 @@ th {
   font-size: 3vw;
 }
 
+td, th {
+  padding: 3vw;
+}
+
 table {
   text-align: right;
   border-width: thin;
   border-style: double;
+  border-radius: 10%;
   border-color: rgb(102,2,60);
   color: rgb(102,2,60);
   background-color: #ffefdb;
   margin-top: 5vw;
 
 }
+@@media query {
 
+}
 #sunflower {
+
+  position: relative;
+/* left: 0px; */
+/* top: 0px; */
+z-index: 1;
+margin-top: -104vw;
+margin-left: 50vw;
 
 }
 
