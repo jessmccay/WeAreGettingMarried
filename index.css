@@ -209,14 +209,12 @@ td, th {
 }
 
 table {
+  position: relative;
   text-align: right;
-  border-width: thin;
-  border-style: double;
   border-radius: 10%;
-  border-color: rgb(102,2,60);
   color: rgb(102,2,60);
   background-color: #ffefdb;
-  margin-top: 5vw;
+  z-index: 1;
 
 }
 @@media query {
@@ -227,9 +225,11 @@ table {
   position: relative;
 /* left: 0px; */
 /* top: 0px; */
-z-index: 1;
-margin-top: -104vw;
-margin-left: 50vw;
+z-index: 2;
+/*margin-top: 1vw;*/
+/*margin-left: 11vw;*/
+margin-bottom: -23vw;
+margin-left: 49vw;
 
 }
 
