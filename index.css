@@ -92,7 +92,7 @@ position: absolute;
 }
 
 #lotsToSee {
-  font-size: 4.1vw;
+  font-size: 3.1vw;
   margin-bottom: 17vw;
   text-align: right;
   font-family: 'Pinyon Script', cursive;
@@ -103,10 +103,8 @@ position: absolute;
   font-size: 4.9vw;
 }
 
-.attractionHeader {}
 
  .attractionDescription {
-  font-size: 2vw;
   padding-bottom: 60px !important;
 }
 
@@ -144,12 +142,12 @@ h1  {
 h3 {
   font-size: 2vw;
 }
-/*
+
 
 h6 {
   font-size: 2vw;
   letter-spacing: .5vw;
-}*/
+}
 
 .rsvpChild {
   margin-left: 5vw;
@@ -265,7 +263,6 @@ margin-left: 49vw;
   #shuttle {
     font-size: 1.9vw;
     text-align: center;
-    width: 105%;
     color: gray;
   }
 
