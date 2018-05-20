@@ -93,6 +93,7 @@ position: absolute;
 
 #lotsToSee {
   font-size: 4.1vw;
+  margin-bottom: 17vw;
   text-align: right;
   font-family: 'Pinyon Script', cursive;
 
@@ -102,13 +103,16 @@ position: absolute;
   font-size: 4.9vw;
 }
 
-.attractionHeader,  .attractionDescription {
+.attractionHeader {}
+
+ .attractionDescription {
+  font-size: 2vw;
   padding-bottom: 60px !important;
 }
 
 .attractionHeader {
   font-family: Gill Sans, Verdana;
-  font-size: 14px;
+  /*font-size: 14px;*/
   line-height: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -121,8 +125,6 @@ position: absolute;
   max-width: 100%;
   margin: 40px auto 0 auto;
   width: 100%;
-
-  background-color: lightblue;
 }
 
 .child {
@@ -136,10 +138,13 @@ position: absolute;
     border-style: outset;
     background-color: paleturquoise;
 }
-/*
 h1  {
-  font-size: 8vw;
+  font-size: 7vw;
 }
+h3 {
+  font-size: 2vw;
+}
+/*
 
 h6 {
   font-size: 2vw;
@@ -156,11 +161,10 @@ h6 {
 }
 
 .parent2 {
-  background-color: lightblue;
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
-  margin: 40px auto 0 auto;
+  /*margin: 40px auto 0 auto;*/
   width: 100%;
 }
 
@@ -205,14 +209,12 @@ td, th {
 }
 
 table {
+  position: relative;
   text-align: right;
-  border-width: thin;
-  border-style: double;
   border-radius: 10%;
-  border-color: rgb(102,2,60);
   color: rgb(102,2,60);
   background-color: #ffefdb;
-  margin-top: 5vw;
+  z-index: 1;
 
 }
 @@media query {
@@ -223,9 +225,11 @@ table {
   position: relative;
 /* left: 0px; */
 /* top: 0px; */
-z-index: 1;
-margin-top: -104vw;
-margin-left: 50vw;
+z-index: 2;
+/*margin-top: 1vw;*/
+/*margin-left: 11vw;*/
+margin-bottom: -23vw;
+margin-left: 49vw;
 
 }
 
@@ -252,10 +256,10 @@ margin-left: 50vw;
 }
 
   #details {
-    color: gray;
+    color: rgb(25, 30,40);
     font-size: 1.9vw;
-    width: 105%;
     line-height: 3vw;
+    text-align: center;
   }
 
   #shuttle {
