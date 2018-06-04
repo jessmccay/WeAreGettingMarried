@@ -47,10 +47,6 @@ a:hover {
 }
 
 #rsvpText {
-  /*color: yellow;*/
-  /*color: rgb(150,200,239);*/
-  /*margin-top: 100%;*/
-  /*font-family: 'Italianno', cursive;*/
   font-family: 'Pinyon Script', cursive;
   /*font-family: 'Oranienbaum', serif;*/
     /*font-family: 'Tangerine', cursive;*/
@@ -62,7 +58,6 @@ position: absolute;
 }
 
 #details_section {
-
   margin-left: 21vw;
 }
 
@@ -70,18 +65,12 @@ position: absolute;
   background-color: black;
   padding: .9vw;
   color:rgb(150,200,239);
-
   text-align: center;
 }
+
 .jessNereus{
-
-/*/  margin-top: 141px !important;*/
-
   padding-top: 17vw;
-    /*margin-left: 7%;*/
   font-size: 3.4vw;
-  /*text-shadow: 4px 4px 0px rgba(0,0,0,0.1);*/
-  /*font-family: 'Alex Brush', cursive;*/
 }
 
 #goingToMontanaHeader {
@@ -134,7 +123,7 @@ position: absolute;
     text-align: center;
     font-size: 9vw;
     border-style: outset;
-    background-color: paleturquoise;
+    background-color: rgb(150,200,239);
 }
 h1  {
   font-size: 7vw;
@@ -142,7 +131,6 @@ h1  {
 h3 {
   font-size: 2vw;
 }
-
 
 h6 {
   font-size: 2vw;
